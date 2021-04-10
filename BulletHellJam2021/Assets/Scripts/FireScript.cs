@@ -8,6 +8,9 @@ public class FireScript : MonoBehaviour
     private int bulletsAmount = 10;
 
     [SerializeField]
+    private float fireRate = 2;
+
+    [SerializeField]
     private float StartAngle = 90f, EndAngle = 270f;
     
     private Vector2 bulletMoveDirection;
@@ -15,7 +18,7 @@ public class FireScript : MonoBehaviour
     void Start()
     {
         Debug.Log("1");
-        InvokeRepeating("Fire", 0f, 2f);
+        InvokeRepeating("Fire", 0f, fireRate);
     }
     void Fire()
     {

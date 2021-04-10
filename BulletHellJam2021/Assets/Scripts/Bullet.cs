@@ -26,6 +26,6 @@ public class Bullet : MonoBehaviour
     }
     private void OnDisable()
     {
-     //   CancelInvoke();
+        CancelInvoke();
     }
 }
