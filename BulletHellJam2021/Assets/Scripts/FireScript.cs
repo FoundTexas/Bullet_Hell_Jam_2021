@@ -20,13 +20,18 @@ public class FireScript : MonoBehaviour
         Debug.Log("1");
         InvokeRepeating("Fire", 0f, fireRate);
     }
+    public void ResetFRate()
+    {
+        CancelInvoke();
+        InvokeRepeating("Fire", 0f, fireRate);
+    }
     void Fire()
     {
         Debug.Log("2");
         float angleStep = (EndAngle - StartAngle) / bulletsAmount;
         float angle = StartAngle;
 
-        for (int i = 0; i < bulletsAmount + 1; i++)
+        for (int i = 0; i < bulletsAmount; i++)
         {
             float bulDirX = transform.position.x + Mathf.Sin((angle * Mathf.PI) / 180f);
             float bulDirY = transform.position.y + Mathf.Cos((angle * Mathf.PI) / 180f);
