@@ -78,7 +78,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4860822113821194959
 Transform:
   m_ObjectHideFlags: 0
@@ -105,12 +105,10 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -133,7 +131,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 178657379
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9a69dc65cd4d36a4abad0638ee9426a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -178,15 +176,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraShake: {fileID: 0}
-  shootParticle: {fileID: 5627102313998767717, guid: 30959c4d9169fb248821c02da7584d74, type: 3}
+  shootParticle: {fileID: 5627102313998767717, guid: 30959c4d9169fb248821c02da7584d74,
+    type: 3}
   weaponAnim: {fileID: 6120182809248218381}
   maxAmmo: 4
   reloadTime: 3
-  pistolAnim: {fileID: 0}
   RifleAnim: {fileID: 6344844584553729804}
   ShotgunAnim: {fileID: 6260338237266191432}
   firePoint: {fileID: 1153484602329219123}
-  bulletPrefab: {fileID: 4004147230578884579, guid: df46eba5680b91149b64dcec215868cc, type: 3}
+  bulletPrefab: {fileID: 4004147230578884579, guid: df46eba5680b91149b64dcec215868cc,
+    type: 3}
   bulletForce: 1800
   startGunTimer: 1.5
 --- !u!1 &3759786238129663091
@@ -234,12 +233,10 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -262,7 +259,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 178657379
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 060b4210d1ec8674c9929ce777826d81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -307,15 +304,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraShake: {fileID: 0}
-  shootParticle: {fileID: 5627102313998767717, guid: 30959c4d9169fb248821c02da7584d74, type: 3}
+  shootParticle: {fileID: 5627102313998767717, guid: 30959c4d9169fb248821c02da7584d74,
+    type: 3}
   weaponAnim: {fileID: 6120182809248218381}
   maxAmmo: 25
   reloadTime: 3
-  pistolAnim: {fileID: 0}
   RifleAnim: {fileID: 6344844584553729804}
   ShotgunAnim: {fileID: 6260338237266191432}
   firePoint: {fileID: 8189733375142383859}
-  bulletPrefab: {fileID: 4004147230578884579, guid: df46eba5680b91149b64dcec215868cc, type: 3}
+  bulletPrefab: {fileID: 4004147230578884579, guid: df46eba5680b91149b64dcec215868cc,
+    type: 3}
   bulletForce: 1500
   startGunTimer: 0.1
 --- !u!1 &6216103263371587345
@@ -334,7 +332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1500971933319234017
 Transform:
   m_ObjectHideFlags: 0
@@ -360,12 +358,10 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -388,7 +384,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 178657379
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: ca2c679db1663a842aca9f5b0dd999d2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -398,7 +394,7 @@ SpriteRenderer:
   m_Size: {x: 1.6, y: 1.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &6446306237061250137
@@ -448,12 +444,10 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -476,9 +470,10 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 178657379
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3719299328343035327, guid: e6a55a3864ad31b4289ffca0f9973f75, type: 3}
+  m_Sprite: {fileID: 3719299328343035327, guid: e6a55a3864ad31b4289ffca0f9973f75,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -570,6 +565,7 @@ MonoBehaviour:
   shake: {fileID: 0}
   weaponHolder: {fileID: 5602682713863144196}
   gunAnim: {fileID: 6344844584553729804}
+  shotAnim: {fileID: 6260338237266191432}
   animator: {fileID: 9218684990463060014}
   moveSpeed: 8
   rb: {fileID: 6446306237061250142}

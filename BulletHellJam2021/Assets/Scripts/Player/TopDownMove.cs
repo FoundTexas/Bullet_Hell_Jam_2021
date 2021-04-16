@@ -7,6 +7,7 @@ public class TopDownMove : MonoBehaviour
     public CameraShake shake;
     public Transform weaponHolder;
     public Animator gunAnim;
+    public Animator shotAnim;
     public Animator animator;
     public float moveSpeed = 15f;
     public Rigidbody2D rb;
@@ -37,6 +38,8 @@ public class TopDownMove : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
         gunAnim.SetFloat("DirectionX", lookDir.x);
         gunAnim.SetFloat("DirectionY", lookDir.y);
+        shotAnim.SetFloat("DirectionX", lookDir.x);
+        shotAnim.SetFloat("DirectionY", lookDir.y);
     }
 
     private void FixedUpdate()
