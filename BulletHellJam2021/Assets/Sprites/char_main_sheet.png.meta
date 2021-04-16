@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: e6a55a3864ad31b4289ffca0f9973f75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3719299328343035327
+    second: NoWeapon_Idle1
+  - first:
+      213: 4227505320111523173
+    second: NoWeapon_Idle2
+  - first:
+      213: -530780087200706239
+    second: NoWeapon_Idle3
+  - first:
+      213: -7933733558413733583
+    second: WeaponForward_Idle1
+  - first:
+      213: -4759004573097739751
+    second: WeaponForward_Idle2
+  - first:
+      213: -6682330425330527966
+    second: WeaponForward_Idle3
+  - first:
+      213: 7789511163814991756
+    second: WeaponDown_Idle1
+  - first:
+      213: 9073197848957048364
+    second: WeaponDown_Idle2
+  - first:
+      213: 9202054953228599273
+    second: WeaponDown_Idle3
+  - first:
+      213: 6782580650034682379
+    second: WeaponUp_Idle1
+  - first:
+      213: -8323503438585839675
+    second: WeaponUp_Idle2
+  - first:
+      213: 4909492525958013171
+    second: WeaponUp_Idle3
+  - first:
+      213: 7544083821979515125
+    second: NoWeapon_Run1
+  - first:
+      213: 4956958048323881777
+    second: NoWeapon_Run2
+  - first:
+      213: 3789487569276609104
+    second: NoWeapon_Run3
+  - first:
+      213: -7812904548728837505
+    second: NoWeapon_Run4
+  - first:
+      213: 7766272949722138824
+    second: NoWeapon_Run5
+  - first:
+      213: -4094875897694362729
+    second: NoWeapon_Run6
+  - first:
+      213: 1286978891832102676
+    second: WeaponForward_Run1
+  - first:
+      213: -4636899765207349258
+    second: WeaponForward_Run2
+  - first:
+      213: -6242323664798083115
+    second: WeaponForward_Run3
+  - first:
+      213: -841579771947862091
+    second: WeaponForward_Run4
+  - first:
+      213: 2501834329503470320
+    second: WeaponForward_Run5
+  - first:
+      213: 1067973378971580029
+    second: char_main_sheet_23
+  - first:
+      213: -8306326134097051609
+    second: WeaponDown_Run1
+  - first:
+      213: 4580896686329498528
+    second: WeaponDown_Run2
+  - first:
+      213: 342680296052528769
+    second: WeaponDown_Run3
+  - first:
+      213: 528152883065263012
+    second: WeaponDown_Run4
+  - first:
+      213: -7418004228313131436
+    second: WeaponDown_Run5
+  - first:
+      213: -2746568901960534929
+    second: WeaponDown_Run6
+  - first:
+      213: 521592653352329566
+    second: WeaponUp_Run1
+  - first:
+      213: -7292929346928493703
+    second: WeaponUp_Run2
+  - first:
+      213: -3097255735662651984
+    second: WeaponUp_Run3
+  - first:
+      213: -2265114056192128519
+    second: WeaponUp_Run4
+  - first:
+      213: 2639389782222017023
+    second: WeaponUp_Run5
+  - first:
+      213: -6781501877145193200
+    second: WeaponUp_Run6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NoWeapon_Idle1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 384
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd4c3f880b9d9330800000000000000
+      internalID: 3719299328343035327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoWeapon_Idle2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 384
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565425bb0bd1baa30800000000000000
+      internalID: 4227505320111523173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoWeapon_Idle3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 384
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1411d88a25a42a8f0800000000000000
+      internalID: -530780087200706239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponForward_Idle1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 384
+        width: 27
+        height: 55
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13157240d57b5e190800000000000000
+      internalID: -7933733558413733583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponForward_Idle2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 384
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91abc081e8e94fdb0800000000000000
+      internalID: -4759004573097739751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponForward_Idle3
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 384
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2219366f1e79343a0800000000000000
+      internalID: -6682330425330527966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponDown_Idle1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 320
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87d1250227e91c60800000000000000
+      internalID: 7789511163814991756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponDown_Idle2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 320
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c265ceb2f597aed70800000000000000
+      internalID: 9073197848957048364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponDown_Idle3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 320
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef70d2b93444bf70800000000000000
+      internalID: 9202054953228599273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUp_Idle1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 320
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a51c16a21902e50800000000000000
+      internalID: 6782580650034682379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUp_Idle2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 320
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf3950f8b9fc7c80800000000000000
+      internalID: -8323503438585839675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUp_Idle3
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 321
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0a925d075022440800000000000000
+      internalID: 4909492525958013171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoWeapon_Run1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 256
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f83cdc0448f1b860800000000000000
+      internalID: 7544083821979515125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoWeapon_Run2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 256
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bcbd4f417aac440800000000000000
+      internalID: 4956958048323881777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoWeapon_Run3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 256
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052ad7fddd6f69430800000000000000
+      internalID: 3789487569276609104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoWeapon_Run4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 256
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aebfc15bcf29390800000000000000
+      internalID: -7812904548728837505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoWeapon_Run5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 258
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8c9eca91857cb60800000000000000
+      internalID: 7766272949722138824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoWeapon_Run6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 256
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7936e9e01141c27c0800000000000000
+      internalID: -4094875897694362729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponForward_Run1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 192
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f0411cb744cd110800000000000000
+      internalID: 1286978891832102676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponForward_Run2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 192
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f749bb1b3c66afb0800000000000000
+      internalID: -4636899765207349258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponForward_Run3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 192
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d712ba33bfce59a0800000000000000
+      internalID: -6242323664798083115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponForward_Run4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 192
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7b4e208ab1254f0800000000000000
+      internalID: -841579771947862091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponForward_Run5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 194
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f29ee0411d48b220800000000000000
+      internalID: 2501834329503470320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char_main_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 192
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76bc2b312432de00800000000000000
+      internalID: 1067973378971580029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponDown_Run1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7200a9cc3600abc80800000000000000
+      internalID: -8306326134097051609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponDown_Run2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 128
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab0f6df34d929f30800000000000000
+      internalID: 4580896686329498528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponDown_Run3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 128
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1869cb5e9e171c400800000000000000
+      internalID: 342680296052528769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponDown_Run4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 128
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a31436bf30645700800000000000000
+      internalID: 528152883065263012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponDown_Run5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 130
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456dc05e474fd0990800000000000000
+      internalID: -7418004228313131436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponDown_Run6
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 128
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64f187b22a32e9d0800000000000000
+      internalID: -2746568901960534929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUp_Run1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 64
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51e48431c11d3700800000000000000
+      internalID: 521592653352329566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUp_Run2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 64
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b3e48066f4aca90800000000000000
+      internalID: -7292929346928493703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUp_Run3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 64
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5594181565405d0800000000000000
+      internalID: -3097255735662651984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUp_Run4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 64
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f98ce854c2b090e0800000000000000
+      internalID: -2265114056192128519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUp_Run5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 66
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff19329d50ff0a420800000000000000
+      internalID: 2639389782222017023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUp_Run6
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 64
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015bd1109f343e1a0800000000000000
+      internalID: -6781501877145193200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
