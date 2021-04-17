@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 35c06fef5913693479b80af4d3becd8f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Miniatura: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

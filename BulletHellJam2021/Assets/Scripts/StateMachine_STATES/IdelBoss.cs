@@ -10,7 +10,6 @@ public class IdelBoss : StateMachineBehaviour
     public float minTime;
     public float maxTime;
     public string[] state;
-    public bool isHunter;
 
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
