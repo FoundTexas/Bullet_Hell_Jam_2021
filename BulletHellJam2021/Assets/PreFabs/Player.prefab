@@ -152,7 +152,7 @@ Animator:
   m_GameObject: {fileID: 990519876359419937}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c04ccfa374d32a4da8b2a8876ce2963, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 6446306237061250142}
   - component: {fileID: 9218684990463060014}
   - component: {fileID: 8968255960305894324}
-  - component: {fileID: 5333362837480141093}
+  - component: {fileID: 273248676941314442}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -549,7 +549,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.007974684, y: 0.00000011920929}
+  m_Offset: {x: 0.034673274, y: -0.6227492}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -560,7 +560,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3349348, y: 3.041508}
+  m_Size: {x: 0.88105714, y: 1.7960093}
   m_EdgeRadius: 0
 --- !u!50 &6446306237061250142
 Rigidbody2D:
@@ -622,7 +622,7 @@ MonoBehaviour:
   moveSpeed: 8
   rb: {fileID: 6446306237061250142}
   cam: {fileID: 0}
---- !u!114 &5333362837480141093
+--- !u!114 &273248676941314442
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -631,9 +631,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6446306237061250137}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47f95bcf72c676342a97eef70876e468, type: 3}
+  m_Script: {fileID: 11500000, guid: bffc3607491f87e469c62f7b6f588b76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Healthanim: {fileID: 2037379181559460240}
 --- !u!1 &7910286636126223313
 GameObject:
   m_ObjectHideFlags: 0

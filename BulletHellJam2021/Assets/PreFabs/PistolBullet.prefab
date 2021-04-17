@@ -120,6 +120,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletExplode: {fileID: 6191634143265722576, guid: 3bb4998a130611246a50b382171122e1,
     type: 3}
+  pop_text: {fileID: 6681227754904948250, guid: 81cfde7e321d55a4f9b0ffc694885007,
+    type: 3}
+  isEnemy: 0
+  BulletDamage: 0
 --- !u!61 &1244843241216569318
 BoxCollider2D:
   m_ObjectHideFlags: 0
