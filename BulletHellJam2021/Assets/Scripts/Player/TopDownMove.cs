@@ -60,6 +60,7 @@ public class TopDownMove : MonoBehaviour
     }
 
     public void Step() {
+        FindObjectOfType<SoundManager>().Play("PlayerStep1");
         shake.ShakeCamera(2f, .1f);
     }
 }

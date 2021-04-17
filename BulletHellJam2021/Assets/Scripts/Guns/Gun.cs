@@ -57,6 +57,7 @@ public class Gun : MonoBehaviour
             RifleAnim.SetTrigger("Shoot");
             Instantiate(shootParticle, firePoint.position, firePoint.rotation);
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            FindObjectOfType<SoundManager>().Play("AKShot");
             Rigidbody2D bulletRB = bullet.GetComponent<Rigidbody2D>();
             bulletRB.AddForce(firePoint.right * bulletForce + new Vector3(0f, Random.Range(-120f, 120f), 0f));
         }
@@ -92,17 +93,15 @@ public class Gun : MonoBehaviour
 
     IEnumerator Reload() {
         isReloading = true;
-        weaponAnim.SetBool("Reloading", true);
+        FindObjectOfType<SoundManager>().Play("AKReload");
 
         yield return new WaitForSeconds(reloadTime);
 
-        weaponAnim.SetBool("Reloading", false);
         currentAmmo = maxAmmo;
         isReloading = false;
     }
 
     void OnEnable() {
         isReloading = false;
-        weaponAnim.SetBool("Reloading", false);
     }
 }
