@@ -14,20 +14,15 @@ public class Player : MonoBehaviour
 
     public void TookDamage()
     {
-
         Healthanim.SetTrigger("m");
+        FindObjectOfType<SoundManager>().Play("PlayerHurt");
         HP--;
     }
 
     public void GetHeal()
     {
         Healthanim.SetTrigger("p");
+        FindObjectOfType<SoundManager>().Play("PlayerHeal");
         HP++;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

@@ -29,7 +29,7 @@ public class Gun : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.R)) {
-            StartCoroutine(Reload());
+            StartCoroutine(Reload(currentGunName));
         }
 
         if(isReloading) {
@@ -37,7 +37,7 @@ public class Gun : MonoBehaviour
         }
 
         if(currentAmmo <= 0) {
-            StartCoroutine(Reload());
+            StartCoroutine(Reload(currentGunName));
             return;
         }
 
@@ -92,14 +92,12 @@ public class Gun : MonoBehaviour
         }
     }
 
-    IEnumerator Reload() {
+    IEnumerator Reload(string gun) {
         isReloading = true;
-
-        if(currentGunName == "Rifle") {
+        if(gun == "Rifle"){
             FindObjectOfType<SoundManager>().Play("AKReload");
-        }
-        if(currentGunName == "Shotgun") {
-            FindObjectOfType<SoundManager>().Play("ShotgunReaload");
+        } else if(gun == "Pistol") {
+            FindObjectOfType<SoundManager>().Play("ShotgunReload");
         }
 
         yield return new WaitForSeconds(reloadTime);
