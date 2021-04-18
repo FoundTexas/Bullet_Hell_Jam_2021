@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -167,7 +167,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4518488
 GameObject:
@@ -2695,13 +2695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07e8b13484bac754f93feffb255f0b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VersioName: 0.1
-  UsernameMenu: {fileID: 1082009817}
-  ConnectPannel: {fileID: 1737959546}
-  UsernameInput: {fileID: 1769092914}
-  CreatGameInput: {fileID: 1306374527}
-  JoinGameInput: {fileID: 295113497}
-  StartButton: {fileID: 1175142921}
 --- !u!1 &409847532
 GameObject:
   m_ObjectHideFlags: 0
@@ -4384,7 +4377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1077910883
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4426,10 +4419,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.4476819, g: 0, b: 0.49056602, a: 1}
+    m_NormalColor: {r: 0.1882353, g: 0.1882353, b: 0.1882353, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.44705883, g: 0, b: 0.49019608, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 0.22745098}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -5003,7 +4996,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1125340517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5477,7 +5470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1295712946
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5519,10 +5512,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.4476819, g: 0, b: 0.49056602, a: 1}
+    m_NormalColor: {r: 0.1882353, g: 0.1882353, b: 0.1882353, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.44705883, g: 0, b: 0.49019608, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 0.22745098}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -9610,7 +9603,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+    m_NormalColor: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10141,7 +10134,7 @@ PrefabInstance:
     - target: {fileID: 2441741846351272646, guid: 062bb201cdd0b5545b881661ea41fed8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2441741846351272646, guid: 062bb201cdd0b5545b881661ea41fed8,
         type: 3}

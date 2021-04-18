@@ -9,10 +9,7 @@ public class GameManager : MonoBehaviour
     public float TransitionTime = 1f;
     bool NotLs;
     string curS;
-    /*public int lives;
-    public int[] characterIndex;
-    public int characterIn;
-    public int characterIn2;*/
+
     private static GameManager gameManager;
     public int MaxLevels = 5;
 
@@ -111,11 +108,6 @@ public class GameManager : MonoBehaviour
     {
         curS = s;
         
-        Load(1);
-    }
-
-    public void CharacterSelected()
-    {
         if (PlayerPrefs.HasKey(curS) && PlayerPrefs.GetInt(curS) > 0)
         {
             Load(PlayerPrefs.GetInt(curS));
@@ -129,7 +121,7 @@ public class GameManager : MonoBehaviour
         else
         {
             //SaveGame();
-            Load(2);
+            Load(1);
             return;
         }
     }
@@ -140,18 +132,18 @@ public class GameManager : MonoBehaviour
         Debug.Log("enternext");
         if (SceneManager.GetActiveScene().buildIndex < MaxLevels)
         {
+            SaveGame(1);
             Debug.Log("1");
-            //SaveGame();
             Load(SceneManager.GetActiveScene().buildIndex + 1);
             audios.clip = Level[SceneManager.GetActiveScene().buildIndex];
             audios.Play();
         }
         else if (SceneManager.GetActiveScene().buildIndex >= MaxLevels)
         {
+            SaveGame(0);
             audios.clip = menu;
             audios.Play();
             Debug.Log("2");
-            //Savecurr();
             Load(0);
         }
     }
@@ -173,11 +165,11 @@ public class GameManager : MonoBehaviour
         Debug.Log("pre");
         anim.SetTrigger("Start");
 
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(1);
 
         audios.clip = Level[SceneManager.GetActiveScene().buildIndex];
         audios.Play();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void Menu()
@@ -190,9 +182,6 @@ public class GameManager : MonoBehaviour
     }
     public void Reload()
     {
-        //audios.clip = menu;
-        //audios.Play();
-
         Load(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -201,7 +190,6 @@ public class GameManager : MonoBehaviour
         
         anim = GameObject.FindGameObjectWithTag("Fader").GetComponent<Animator>();
         StartCoroutine(loadLevel(index));
-        //SceneManager.LoadScene(index);
     }
     IEnumerator loadLevel(int i)
     {
@@ -219,14 +207,9 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt(s + "", 0);
     }
 
-    public void SaveGame()
+    public void SaveGame(int i)
     {
-        PlayerPrefs.SetInt(curS, SceneManager.GetActiveScene().buildIndex+1);
-    }
-
-    public void Savecurr()
-    {
-        PlayerPrefs.SetInt(curS, SceneManager.GetActiveScene().buildIndex);
+        PlayerPrefs.SetInt(curS, SceneManager.GetActiveScene().buildIndex + i);
     }
 
     public bool anyComplete()
