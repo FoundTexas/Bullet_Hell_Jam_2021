@@ -110,7 +110,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -128,18 +128,19 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_SortingLayerID: 1970076439
+  m_SortingLayer: 4
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 3853646564097457985, guid: a3770471a4e584841a5b7797ef1763e0,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.2, y: 0.925}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &2037379181559460240
@@ -231,9 +232,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 178657379
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: 1970076439
+  m_SortingLayer: 4
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 9a69dc65cd4d36a4abad0638ee9426a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -359,9 +360,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 178657379
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: 1970076439
+  m_SortingLayer: 4
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 060b4210d1ec8674c9929ce777826d81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -416,7 +417,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4004147230578884579, guid: df46eba5680b91149b64dcec215868cc,
     type: 3}
   bulletForce: 1500
-  startGunTimer: 0.1
+  startGunTimer: 0.12
 --- !u!1 &6216103263371587345
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,8 +522,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1970076439
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 3719299328343035327, guid: e6a55a3864ad31b4289ffca0f9973f75,
     type: 3}
@@ -635,6 +636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Healthanim: {fileID: 2037379181559460240}
+  playerAnim: {fileID: 9218684990463060014}
 --- !u!1 &7910286636126223313
 GameObject:
   m_ObjectHideFlags: 0

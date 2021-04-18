@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3092533408482401207}
   - component: {fileID: 1348052763908510941}
   - component: {fileID: 5638819646313329739}
+  - component: {fileID: 6957103950259802}
   m_Layer: 0
   m_Name: Heartpiece3Q
   m_TagString: Untagged
@@ -129,3 +130,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 0.88}
   m_EdgeRadius: 0
+--- !u!114 &6957103950259802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774948073228197661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8bc6b2d20cdc542a5d7986fd18d1ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healing: 3
+  HealAnim: {fileID: 1348052763908510941}

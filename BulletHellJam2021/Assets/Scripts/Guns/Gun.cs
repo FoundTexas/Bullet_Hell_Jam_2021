@@ -96,7 +96,7 @@ public class Gun : MonoBehaviour
         isReloading = true;
         if(gun == "Rifle"){
             FindObjectOfType<SoundManager>().Play("AKReload");
-        } else if(gun == "Pistol") {
+        } else if(gun == "Shotgun") {
             FindObjectOfType<SoundManager>().Play("ShotgunReload");
         }
 
