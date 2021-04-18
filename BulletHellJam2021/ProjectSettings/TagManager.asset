@@ -7,6 +7,8 @@ TagManager:
   - Bullet
   - Obstacle
   - Enemy
+  - slidervolume
+  - Fader
   layers:
   - Default
   - TransparentFX
@@ -43,4 +45,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 3827169629
+    locked: 0
+  - name: Middlegorund
+    uniqueID: 3227307887
+    locked: 0
+  - name: Objects
+    uniqueID: 960278059
+    locked: 0
+  - name: Mobs
+    uniqueID: 1970076439
     locked: 0
