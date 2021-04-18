@@ -1,0 +1,1064 @@
+fileFormatVersion: 2
+guid: ca3c0a0c00f2e5342a257465e37c48ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3579907730921266776
+    second: heart-grab--Sheet_0
+  - first:
+      213: -1132331529667478658
+    second: heart-grab--Sheet_1
+  - first:
+      213: -1464326702693126854
+    second: heart-grab--Sheet_2
+  - first:
+      213: -7781809040340495321
+    second: heart-grab--Sheet_3
+  - first:
+      213: -75415261876334661
+    second: heart-grab--Sheet_4
+  - first:
+      213: 4364904465888573154
+    second: heart-grab--Sheet_5
+  - first:
+      213: -7215170266552347612
+    second: heart-grab--Sheet_6
+  - first:
+      213: 237943634301954764
+    second: heart-grab--Sheet_7
+  - first:
+      213: 8769090542251043435
+    second: heart-grab--Sheet_8
+  - first:
+      213: 3859737750649777631
+    second: heart-grab--Sheet_9
+  - first:
+      213: 3790918102024922910
+    second: heart-grab--Sheet_10
+  - first:
+      213: -4909654403946299905
+    second: heart-grab--Sheet_11
+  - first:
+      213: 2035898201038587590
+    second: heart-grab--Sheet_12
+  - first:
+      213: 8052622135273291450
+    second: heart-grab--Sheet_13
+  - first:
+      213: 7612364324765033707
+    second: heart-grab--Sheet_14
+  - first:
+      213: 2344415717015798995
+    second: heart-grab--Sheet_15
+  - first:
+      213: 2710598696236189949
+    second: heart-grab--Sheet_16
+  - first:
+      213: -5237852426270258767
+    second: heart-grab--Sheet_17
+  - first:
+      213: -5847864615306945616
+    second: heart-grab--Sheet_18
+  - first:
+      213: 806374589042526621
+    second: heart-grab--Sheet_19
+  - first:
+      213: 4095291036012756912
+    second: heart-grab--Sheet_20
+  - first:
+      213: -44604981696087034
+    second: heart-grab--Sheet_21
+  - first:
+      213: 8186764962654025571
+    second: heart-grab--Sheet_22
+  - first:
+      213: 3246653774143990907
+    second: heart-grab--Sheet_23
+  - first:
+      213: 7713032369150101824
+    second: heart-grab--Sheet_24
+  - first:
+      213: 6394495082082181832
+    second: heart-grab--Sheet_25
+  - first:
+      213: 3242212282718471963
+    second: heart-grab--Sheet_26
+  - first:
+      213: -1373075371279849440
+    second: heart-grab--Sheet_27
+  - first:
+      213: 5535956058883131574
+    second: heart-grab--Sheet_28
+  - first:
+      213: -3280099767995691061
+    second: heart-grab--Sheet_29
+  - first:
+      213: 5981835226181434623
+    second: heart-grab--Sheet_30
+  - first:
+      213: -3729221419224385058
+    second: heart-grab--Sheet_31
+  - first:
+      213: 7633287555768401528
+    second: heart-grab--Sheet_32
+  - first:
+      213: -2328982225527379664
+    second: heart-grab--Sheet_33
+  - first:
+      213: 1723309035135615093
+    second: heart-grab--Sheet_34
+  - first:
+      213: -1443960812963907515
+    second: heart-grab--Sheet_35
+  - first:
+      213: -7264788396111682991
+    second: heart-grab--Sheet_36
+  - first:
+      213: -907252037275396697
+    second: heart-grab--Sheet_37
+  - first:
+      213: 1692994272851146953
+    second: heart-grab--Sheet_38
+  - first:
+      213: 4659418909865226207
+    second: heart-grab--Sheet_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heart-grab--Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 513
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e9c363d136ea130800000000000000
+      internalID: 3579907730921266776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 513
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bf13e19762940f0800000000000000
+      internalID: -1132331529667478658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 513
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d6bda4f9aadabe0800000000000000
+      internalID: -1464326702693126854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 513
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724d49858e5710490800000000000000
+      internalID: -7781809040340495321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 448
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfc739083214fef0800000000000000
+      internalID: -75415261876334661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 448
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6fdc74c71439c30800000000000000
+      internalID: 4364904465888573154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 448
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424df24ced09edb90800000000000000
+      internalID: -7215170266552347612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 448
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca222789785d4300800000000000000
+      internalID: 237943634301954764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 449
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a6c16336112b970800000000000000
+      internalID: 8769090542251043435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 385
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd25a1d80b809530800000000000000
+      internalID: 3859737750649777631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 385
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e172bcbbdeb0c9430800000000000000
+      internalID: 3790918102024922910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 385
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd39d205576ddbb0800000000000000
+      internalID: -4909654403946299905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 385
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c603cf80a6f04c10800000000000000
+      internalID: 2035898201038587590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 320
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe796bda29a0cf60800000000000000
+      internalID: 8052622135273291450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 320
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4e976750d84a960800000000000000
+      internalID: 7612364324765033707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 319
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4c1926ca9098020800000000000000
+      internalID: 2344415717015798995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 320
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df88bc1272bfd9520800000000000000
+      internalID: 2710598696236189949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 321
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b94e3a38f86f47b0800000000000000
+      internalID: -5237852426270258767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 257
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb9d0e9d1638dea0800000000000000
+      internalID: -5847864615306945616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 257
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9908c79a61d03b00800000000000000
+      internalID: 806374589042526621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 257
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfb16ddf7565d830800000000000000
+      internalID: 4095291036012756912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 257
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cbac66108816ff0800000000000000
+      internalID: -44604981696087034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3677b92bb5b3d9170800000000000000
+      internalID: 8186764962654025571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 192
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ca884f76e6e0d20800000000000000
+      internalID: 3246653774143990907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 192
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049084803123a0b60800000000000000
+      internalID: 7713032369150101824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 192
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2ad7dc56fcdb850800000000000000
+      internalID: 6394495082082181832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17c7d5a4e6aefc20800000000000000
+      internalID: 3242212282718471963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 129
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028e605893bd1fce0800000000000000
+      internalID: -1373075371279849440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 129
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b886ed64baa3dc40800000000000000
+      internalID: 5535956058883131574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 129
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf86c4c3aeba72d0800000000000000
+      internalID: -3280099767995691061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 129
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc7671f17fb30350800000000000000
+      internalID: 5981835226181434623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 64
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed93a52a0e42f3cc0800000000000000
+      internalID: -3729221419224385058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e3cfdc692eee960800000000000000
+      internalID: 7633287555768401528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 64
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039ed3f510bcdafd0800000000000000
+      internalID: -2328982225527379664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 64
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570ca7ddf6c6ae710800000000000000
+      internalID: 1723309035135615093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 65
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548b3b18a4506fbe0800000000000000
+      internalID: -1443960812963907515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1522269b1794e2b90800000000000000
+      internalID: -7264788396111682991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a55374341bc863f0800000000000000
+      internalID: -907252037275396697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c830104259be7710800000000000000
+      internalID: 1692994272851146953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart-grab--Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 16
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf2146dfc499a040800000000000000
+      internalID: 4659418909865226207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

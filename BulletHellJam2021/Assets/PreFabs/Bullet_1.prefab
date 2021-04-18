@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6621298670738328419}
   - component: {fileID: -138261813677362356}
   - component: {fileID: -4235654869906653959}
-  - component: {fileID: 8591176482421224282}
+  - component: {fileID: 4614357362939607539}
   - component: {fileID: 7963855311886779669}
   m_Layer: 0
   m_Name: Bullet_1
@@ -140,7 +140,7 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!114 &8591176482421224282
+--- !u!114 &4614357362939607539
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletExplode: {fileID: 6191634143265722576, guid: 3bb4998a130611246a50b382171122e1,
     type: 3}
+  pop_text: {fileID: 0}
   isEnemy: 1
   BulletDamage: 1
 --- !u!58 &7963855311886779669
