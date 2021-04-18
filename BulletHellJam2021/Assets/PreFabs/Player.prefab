@@ -623,6 +623,7 @@ MonoBehaviour:
   moveSpeed: 8
   rb: {fileID: 6446306237061250142}
   cam: {fileID: 0}
+  HolderObj: {fileID: 7910286636126223313}
 --- !u!114 &273248676941314442
 MonoBehaviour:
   m_ObjectHideFlags: 0

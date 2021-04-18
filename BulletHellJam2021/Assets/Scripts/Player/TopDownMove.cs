@@ -16,6 +16,18 @@ public class TopDownMove : MonoBehaviour
     Vector2 mousePos;
     private bool facingRight = true;
 
+    public GameObject HolderObj;
+
+    public void StartDialogue()
+    {
+        HolderObj.SetActive(false);
+        animator.SetTrigger("Dialoguestart");
+    }
+    public void EndDialogue()
+    {
+        HolderObj.SetActive(true);
+        animator.SetTrigger("DialogueEnd");
+    }
 
     // Update is called once per frame
     void Update()
