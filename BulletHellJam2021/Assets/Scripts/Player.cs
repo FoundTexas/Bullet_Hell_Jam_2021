@@ -51,6 +51,7 @@ public class Player : MonoBehaviour
     }
 
     void Die() {
+        FindObjectOfType<SoundManager>().Play("HeartBreak");
         weapons.gameObject.SetActive(false);
         playerAnim.SetBool("IsDead", true);
         GetComponent<TopDownMove>().enabled = false;
