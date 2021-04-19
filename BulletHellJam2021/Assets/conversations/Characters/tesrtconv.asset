@@ -24,14 +24,19 @@ MonoBehaviour:
     ImageIndex: 0
     ImageIndexTwo: 0
     VoiceIndex: 0
-    text: Yep...
-  - character: {fileID: 11400000, guid: 9e1cc41ba5aac6448b3f5900ae5b2678, type: 2}
+    text: Y
+  - character: {fileID: 0}
     ImageIndex: 0
     ImageIndexTwo: 0
     VoiceIndex: 0
-    text: ssdsdsdsdsd
-  - character: {fileID: 11400000, guid: 0df004901c43d6f4cad7db0e636ab668, type: 2}
+    text: 
+  - character: {fileID: 0}
     ImageIndex: 0
     ImageIndexTwo: 0
     VoiceIndex: 0
-    text: hgfdsas
+    text: 
+  - character: {fileID: 0}
+    ImageIndex: 0
+    ImageIndexTwo: 0
+    VoiceIndex: 0
+    text: 

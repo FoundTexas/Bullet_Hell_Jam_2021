@@ -16,4 +16,4 @@ MonoBehaviour:
   portait:
   - {fileID: 1067973378971580029, guid: e6a55a3864ad31b4289ffca0f9973f75, type: 3}
   voice:
-  - {fileID: 8300000, guid: bfc2d2c31e793b347b08392fc4882137, type: 3}
+  - {fileID: 8300000, guid: d058729fe8b110b4bb3746efca674f45, type: 3}
