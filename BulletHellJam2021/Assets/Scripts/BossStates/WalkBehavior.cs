@@ -60,10 +60,10 @@ public class WalkBehavior : StateMachineBehaviour
         animator.transform.position = new Vector2(animator.transform.position.x,
             Mathf.Clamp(animator.transform.position.y, minHeight, maxHeight));
 
-        if (Vector2.Distance(animator.transform.position, target) < 0.01f)
+        /*if (Vector2.Distance(animator.transform.position, target) < 0.01f)
         {
             animator.SetTrigger(state[Random.Range(0, state.Length)]);
-        }
+        }*/
 
         if (timer <= 0)
         {

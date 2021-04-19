@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - slidervolume
   - Fader
+  - WH
   layers:
   - Default
   - TransparentFX

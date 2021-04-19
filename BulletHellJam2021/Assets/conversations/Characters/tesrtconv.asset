@@ -25,18 +25,13 @@ MonoBehaviour:
     ImageIndexTwo: 0
     VoiceIndex: 0
     text: Y
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 0df004901c43d6f4cad7db0e636ab668, type: 2}
     ImageIndex: 0
     ImageIndexTwo: 0
     VoiceIndex: 0
-    text: 
-  - character: {fileID: 0}
+    text: gfd
+  - character: {fileID: 11400000, guid: 9e1cc41ba5aac6448b3f5900ae5b2678, type: 2}
     ImageIndex: 0
     ImageIndexTwo: 0
     VoiceIndex: 0
-    text: 
-  - character: {fileID: 0}
-    ImageIndex: 0
-    ImageIndexTwo: 0
-    VoiceIndex: 0
-    text: 
+    text: gfd

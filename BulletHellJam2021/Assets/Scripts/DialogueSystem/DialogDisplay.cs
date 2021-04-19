@@ -16,7 +16,8 @@ public class DialogDisplay : MonoBehaviour
 
     private int LineIndex = 100;
 
-    //private Player player;
+   private GameObject player;
+    private GameObject Gun;
 
     private AudioSource audios;
 
@@ -28,6 +29,9 @@ public class DialogDisplay : MonoBehaviour
         speakerUILeft = Left.GetComponent<SpeakerUI>();
         speakerUIRight = Right.GetComponent<SpeakerUI>();
 
+        player = GameObject.FindGameObjectWithTag("Player");
+        Gun = GameObject.FindGameObjectWithTag("WH");
+        StarDialogue(conversation);
         //speakerUILeft.Speaker = conversation.Left;
         //speakerUIRight.Speaker = conversation.Right;
     }
@@ -39,6 +43,9 @@ public class DialogDisplay : MonoBehaviour
 
     public void StarDialogue(Conversation conver)
     {
+        player.GetComponent<Animator>().Play("Player_Idle");
+        player.GetComponent<TopDownMove>().enabled = false;
+        Gun.SetActive(false);
         /*Enemy[] enemies = FindObjectsOfType<Enemy>();
         foreach (Enemy E in enemies)
         {
@@ -84,6 +91,10 @@ public class DialogDisplay : MonoBehaviour
 
             speakerUILeft.Hide();
             speakerUIRight.Hide();
+            player.GetComponent<Animator>().Play("Idle Tree");
+            player.GetComponent<TopDownMove>().enabled = true;
+            Gun.SetActive(true);
+
             //player.GetComponent<Player>().Dialogue();
 
             //FindObjectOfType<MusicManager>().ChangeToDefaultMusic();
