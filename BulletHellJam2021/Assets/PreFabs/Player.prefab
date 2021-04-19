@@ -280,7 +280,7 @@ MonoBehaviour:
   cameraShake: {fileID: 0}
   shootParticle: {fileID: 5627102313998767717, guid: 30959c4d9169fb248821c02da7584d74,
     type: 3}
-  weaponAnim: {fileID: 6120182809248218381}
+  weaponAnim: {fileID: 0}
   maxAmmo: 4
   reloadTime: 3
   RifleAnim: {fileID: 6344844584553729804}
@@ -408,7 +408,7 @@ MonoBehaviour:
   cameraShake: {fileID: 0}
   shootParticle: {fileID: 5627102313998767717, guid: 30959c4d9169fb248821c02da7584d74,
     type: 3}
-  weaponAnim: {fileID: 6120182809248218381}
+  weaponAnim: {fileID: 0}
   maxAmmo: 25
   reloadTime: 3
   RifleAnim: {fileID: 6344844584553729804}
@@ -635,6 +635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bffc3607491f87e469c62f7b6f588b76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weapons: {fileID: 7910286636126223313}
   Healthanim: {fileID: 2037379181559460240}
   playerAnim: {fileID: 9218684990463060014}
 --- !u!1 &7910286636126223313
@@ -647,7 +648,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5602682713863144196}
   - component: {fileID: 2054831160646385994}
-  - component: {fileID: 6120182809248218381}
   m_Layer: 8
   m_Name: WeaponHolder
   m_TagString: Untagged
@@ -686,22 +686,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedWeapon: 2
   animator: {fileID: 9218684990463060014}
---- !u!95 &6120182809248218381
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7910286636126223313}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b615c4cbdc32d304fabe87469716ce49, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

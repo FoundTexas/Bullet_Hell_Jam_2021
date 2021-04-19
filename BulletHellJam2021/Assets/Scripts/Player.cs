@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public GameObject weapons;
     public Animator Healthanim;
     public Animator playerAnim;
     int HP;
@@ -23,9 +24,18 @@ public class Player : MonoBehaviour
 
     public void TookDamage()
     {
-        Healthanim.SetTrigger("m");
-        FindObjectOfType<SoundManager>().Play("PlayerHurt");
-        HP--;
+        if(IsHurt == true) {
+            Healthanim.SetTrigger("m");
+            FindObjectOfType<SoundManager>().Play("PlayerHurt");
+            HP--;
+            if(HP <= 0) {
+                Die();
+                return;
+            }
+            IsHurt = false;
+            StartCoroutine(Invulnerable());
+        }
+        
     }
 
     public void GetHeal()
@@ -35,7 +45,13 @@ public class Player : MonoBehaviour
         HP++;
     }
 
-    void Death() {
+    IEnumerator Invulnerable() {
+        yield return new WaitForSeconds(3f);
+        IsHurt = true;
+    }
+
+    void Die() {
+        weapons.gameObject.SetActive(false);
         playerAnim.SetBool("IsDead", true);
         GetComponent<TopDownMove>().enabled = false;
         this.enabled = false;
