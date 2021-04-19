@@ -5,6 +5,9 @@ using UnityEngine;
 public class FireScript : MonoBehaviour
 {
     [SerializeField]
+    private BulletPool fireRate = 2;
+
+    [SerializeField]
     private int bulletsAmount = 10;
 
     [SerializeField]
