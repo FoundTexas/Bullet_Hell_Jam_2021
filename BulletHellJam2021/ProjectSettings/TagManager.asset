@@ -10,6 +10,8 @@ TagManager:
   - slidervolume
   - Fader
   - WH
+  - Spawnpoint
+  - Rooms
   layers:
   - Default
   - TransparentFX
