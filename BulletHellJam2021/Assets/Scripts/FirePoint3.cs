@@ -39,7 +39,7 @@ public class FirePoint3 : MonoBehaviour
             Vector3 bulMoveVector = new Vector3(bulDirX, bulDirY, 0f);
             Vector2 bulDir = (bulMoveVector - transform.position).normalized;
 
-            GameObject bul = FindObjectOfType<BulletPool>().GetBullet();
+            GameObject bul = FindObjectOfType<BulletPool>().GetBullet(0);
             Debug.Log(bul);
             bul.transform.position = transform.position;
             bul.transform.rotation = transform.rotation;

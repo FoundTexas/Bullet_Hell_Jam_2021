@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public Animator Healthanim;
     public Animator playerAnim;
     int HP;
+    int lives;
     bool IsHurt = true;
     float hurtTimer;
     float startHurtTimer = 2f;
@@ -15,6 +16,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         HP = 4;
+        lives = 3;
         hurtTimer = startHurtTimer;
     }
 
@@ -30,7 +32,7 @@ public class Player : MonoBehaviour
             HP--;
             if(HP <= 0) {
                 Die();
-                return;
+                //return;
             }
             IsHurt = false;
             StartCoroutine(Invulnerable());
@@ -56,5 +58,11 @@ public class Player : MonoBehaviour
         playerAnim.SetBool("IsDead", true);
         GetComponent<TopDownMove>().enabled = false;
         this.enabled = false;
+    }
+
+    public void RestartLevel()
+    {
+
+            FindObjectOfType<GameManager>().Dead();
     }
 }

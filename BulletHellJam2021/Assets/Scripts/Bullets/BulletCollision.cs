@@ -22,6 +22,11 @@ public class BulletCollision : MonoBehaviour
                 gameObject.SetActive(false);
                 collider.GetComponent<Player>().TookDamage();
             }
+            else if (collider.gameObject.CompareTag("Obstacle"))
+            {
+                Instantiate(bulletExplode, transform.position, Quaternion.identity);
+                gameObject.SetActive(false);
+            }
         }
         else if (!isEnemy)
         {
@@ -34,11 +39,11 @@ public class BulletCollision : MonoBehaviour
                 Destroy(gameObject);
                 collider.GetComponent<Enemy>().TookDamage(BulletDamage);
             }
-        }
-
-        if(collider.gameObject.CompareTag("Obstacle")) {
-            Instantiate(bulletExplode, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            else if (collider.gameObject.CompareTag("Obstacle"))
+            {
+                Instantiate(bulletExplode, transform.position, Quaternion.identity);
+                Destroy(gameObject);
+            }
         }
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class BulletPool : MonoBehaviour
 {
     public static BulletPool InstanceBP;
-    public GameObject pooledBullet;
+    public GameObject[] pooledBullet;
     private bool notEnoughBulletsInPool = true;
 
     public List<GameObject> bullets;
@@ -18,7 +18,7 @@ public class BulletPool : MonoBehaviour
     {
         bullets = new List<GameObject>();
     }
-    public GameObject GetBullet()
+    public GameObject GetBullet(int type)
     {
         Debug.Log("getting Bullets");
         if (bullets.Count > 0)
@@ -28,14 +28,17 @@ public class BulletPool : MonoBehaviour
             {
                 if (bullets[i].activeInHierarchy == false)
                 {
-                    return bullets[i];
+                    if (bullets[1].GetComponent<Bullet>().type == type)
+                    {
+                        return bullets[i];
+                    }
                 }
             }
         }
         if (notEnoughBulletsInPool)
         {
             Debug.Log("op2");
-            GameObject bul = Instantiate(pooledBullet);
+            GameObject bul = Instantiate(pooledBullet[type]);
             bul.SetActive(false);
             bullets.Add(bul);
             return bul;

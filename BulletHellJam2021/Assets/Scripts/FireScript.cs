@@ -5,7 +5,7 @@ using UnityEngine;
 public class FireScript : MonoBehaviour
 {
     [SerializeField]
-    private BulletPool bp;
+    private int type =0;
 
     [SerializeField]
     private int bulletsAmount = 10;
@@ -43,7 +43,7 @@ public class FireScript : MonoBehaviour
             Vector2 bulDir = (bulMoveVector - transform.position).normalized;
 
 
-            GameObject bul = bp.GetBullet();
+            GameObject bul = FindObjectOfType<BulletPool>().GetBullet(type);
             //Debug.Log(bul);
             bul.transform.position = transform.position;
             bul.transform.rotation = transform.rotation;

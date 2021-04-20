@@ -5,7 +5,8 @@ using UnityEngine;
 public class FireScript2 : MonoBehaviour
 {
     [SerializeField]
-    private int c = 10;
+    private int type = 0;
+
     [SerializeField]
     private int rotation = 10;
 
@@ -32,7 +33,7 @@ public class FireScript2 : MonoBehaviour
     }
     void Fire()
     {
-        Debug.Log("2");
+        //Debug.Log("2");
         float angleStep = 360 / bulletsAmount;
 
         for (int i = 0; i < bulletsAmount; i++)
@@ -43,7 +44,7 @@ public class FireScript2 : MonoBehaviour
             Vector3 bulMoveVector = new Vector3(bulDirX, bulDirY, 0f);
             Vector2 bulDir = (bulMoveVector - transform.position).normalized;
 
-            GameObject bul = FindObjectOfType<BulletPool>().GetBullet();
+            GameObject bul = FindObjectOfType<BulletPool>().GetBullet(type);
             Debug.Log(bul);
             bul.transform.position = transform.position;
             bul.transform.rotation = transform.rotation;

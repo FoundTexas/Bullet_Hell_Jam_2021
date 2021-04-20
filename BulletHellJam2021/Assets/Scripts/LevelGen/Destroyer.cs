@@ -6,7 +6,9 @@ public class Destroyer : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D collider) {
         var colliderTag = collider.CompareTag("Player");
-        if(colliderTag == false) {
+        if(collider.tag == "Bullet")
+        {}
+        else if (colliderTag == false) {
             Destroy(collider.gameObject);
         }
     }

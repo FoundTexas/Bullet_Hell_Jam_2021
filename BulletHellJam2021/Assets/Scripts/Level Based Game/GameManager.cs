@@ -169,6 +169,7 @@ public class GameManager : MonoBehaviour
 
         audios.clip = Level[SceneManager.GetActiveScene().buildIndex];
         audios.Play();
+        b = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -198,6 +199,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(TransitionTime);
         audios.clip = Level[i];
         audios.Play();
+        b = false;
 
         SceneManager.LoadScene(i);
     }
