@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
+    
     public GameObject[] Enemies;
+
+    public GameObject child;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,10 +19,10 @@ public class Spawner : MonoBehaviour
         int r = Random.Range(0, 3);
         switch (r) {
             case 0:
-                Instantiate(Enemies[Random.Range(0, Enemies.Length)],this.transform.position,Quaternion.identity,this.transform);
+                child = Instantiate(Enemies[Random.Range(0, Enemies.Length)],this.transform.position,Quaternion.identity,this.transform);
                 break;
             case 1:
-                Instantiate(Enemies[1], this.transform.position, Quaternion.identity, this.transform);
+                child = Instantiate(Enemies[1], this.transform.position, Quaternion.identity, this.transform);
                 break;
             case 2:
                 break;

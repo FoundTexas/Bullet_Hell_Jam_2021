@@ -23,6 +23,11 @@ public class FireScript : MonoBehaviour
         Debug.Log("1");
         InvokeRepeating("Fire", 0f, fireRate);
     }
+    private void OnDisable()
+    {
+        Debug.Log("off");
+        CancelInvoke();
+    }
     public void ResetFRate()
     {
         CancelInvoke();

@@ -12608,6 +12608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6228409888742193022}
   - component: {fileID: -5516984328386015932}
+  - component: {fileID: -5809806628537966839}
   m_Layer: 0
   m_Name: B
   m_TagString: Untagged
@@ -12645,6 +12646,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Spawners: {fileID: 0}
   canSpawn: 0
+--- !u!50 &-5809806628537966839
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7273141755723113934}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &7380181522225097492
 GameObject:
   m_ObjectHideFlags: 0

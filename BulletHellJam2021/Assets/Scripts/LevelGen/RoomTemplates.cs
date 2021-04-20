@@ -16,6 +16,7 @@ public class RoomTemplates : MonoBehaviour
     private bool spawnedBoss;
     public GameObject boss;
     public List<GameObject> NPCs;
+    public GameObject Spawner;
 
     GameObject EXIT;
 
@@ -73,7 +74,10 @@ public class RoomTemplates : MonoBehaviour
     {
         for (int i = 0; i < rooms.Count - 2; i++)
         {
-            rooms.ToArray()[i].GetComponent<AddRoom>().ActivateSpawner();
+            int r2 = Random.Range(1, rooms.Count - 2);
+            Instantiate(Spawner, rooms.ToArray()[r2].transform.position, Quaternion.identity);
+          
+            rooms.RemoveAt(r2);
 
         }
     }
