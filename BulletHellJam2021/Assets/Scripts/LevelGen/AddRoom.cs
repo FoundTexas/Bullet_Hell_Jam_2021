@@ -9,13 +9,14 @@ public class AddRoom : MonoBehaviour
 
     public GameObject Spawners;
 
-    bool canSpawn;
+    public bool canSpawn = false;
 
     void Start()
     {
 
         templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
         templates.rooms.Add(this.gameObject);
+        canSpawn = false;
     }
 
     public void ActivateSpawner()

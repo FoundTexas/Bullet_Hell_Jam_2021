@@ -59,9 +59,9 @@ public class RoomTemplates : MonoBehaviour
             {
                 int r1 = Random.Range(0, NPCs.Count);
                 int r2 = Random.Range(1, rooms.Count - 2);
-                Instantiate(NPCs.ToArray()[Random.Range(0, NPCs.Count)], rooms.ToArray()[r2].transform.position, Quaternion.identity);
-                rooms.Remove(rooms.ToArray()[r2]);
+                Instantiate(NPCs.ToArray()[r1], rooms.ToArray()[r2].transform.position, Quaternion.identity);
                 NPCs.Remove(NPCs.ToArray()[r1]);
+                rooms.RemoveAt(r2);
 
                 SetSpawners();
             }
