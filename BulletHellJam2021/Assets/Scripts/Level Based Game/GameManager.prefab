@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TransitionTime: 1
-  MaxLevels: 6
+  MaxLevels: 2
   X: 0
   Y: 0
   Objs: 0

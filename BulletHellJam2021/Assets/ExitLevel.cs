@@ -27,5 +27,6 @@ public class ExitLevel : MonoBehaviour
     public void AddKey()
     {
         keys++;
+        condition.text = keys + " / " + needed;
     }
 }

@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    
+    public bool dialogue;
     public GameObject[] Enemies;
 
     public GameObject child;
-    Transform target;
+    GameObject target;
     // Start is called before the first frame update
     void Start()
     {
         
-        target = FindObjectOfType<Player>().transform;
+        target = FindObjectOfType<Player>().gameObject;
         Spawn();
     }
 
@@ -38,13 +38,20 @@ public class Spawner : MonoBehaviour
     {
         if (child != null)
         {
-            if (Vector2.Distance(child.transform.position, target.transform.position) > 25)
+            if (!dialogue)
+            {
+                if (Vector2.Distance(child.transform.position, target.transform.position) > 30)
+                {
+                    child.SetActive(false);
+                }
+                else
+                {
+                    child.SetActive(true);
+                }
+            }
+            else if (dialogue)
             {
                 child.SetActive(false);
-            }
-            else
-            {
-                child.SetActive(true);
             }
         }
     }

@@ -46,11 +46,12 @@ public class DialogDisplay : MonoBehaviour
         player.GetComponent<Animator>().Play("Player_Idle");
         player.GetComponent<TopDownMove>().enabled = false;
         Gun.SetActive(false);
-        /*Enemy[] enemies = FindObjectsOfType<Enemy>();
-        foreach (Enemy E in enemies)
+        Spawner[] enemies = FindObjectsOfType<Spawner>();
+        foreach (Spawner E in enemies)
         {
-            E.enabled = false;
-        }*/
+            E.dialogue = true;
+
+        }
 
         //player.GetComponent<Player>().Dialogue();
         conversation = conver;
@@ -83,11 +84,12 @@ public class DialogDisplay : MonoBehaviour
         }
         else if (Left.activeInHierarchy || Right.activeInHierarchy)
         {
-           /* Enemy[] enemies =  FindObjectsOfType<Enemy>();
-            foreach (Enemy E in enemies)
+            Spawner[] enemies =  FindObjectsOfType<Spawner>();
+            foreach (Spawner E in enemies)
             {
-                E.enabled = true;
-            }*/
+                E.dialogue = false;
+           
+            }
 
             speakerUILeft.Hide();
             speakerUIRight.Hide();
