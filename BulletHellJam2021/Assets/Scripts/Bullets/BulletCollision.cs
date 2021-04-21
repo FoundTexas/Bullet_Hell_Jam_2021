@@ -11,7 +11,7 @@ public class BulletCollision : MonoBehaviour
     public int BulletDamage;
 
     void OnTriggerEnter2D(Collider2D collider) {
-        Debug.Log("collision");
+        //Debug.Log("collision");
 
         if (isEnemy)
         {
