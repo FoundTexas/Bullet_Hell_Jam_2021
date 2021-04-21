@@ -56,13 +56,13 @@ public class UI_Manager : MonoBehaviour
         {
             player.GetComponent<Animator>().Play("Player_Idle");
             player.GetComponent<TopDownMove>().enabled = false;
-            Gun.SetActive(false);
+            //Gun.SetActive(false);
         }
         else if (!Paused)
         {
             player.GetComponent<Animator>().Play("Idle Tree");
             player.GetComponent<TopDownMove>().enabled = true;
-            Gun.SetActive(true);
+            //Gun.SetActive(true);
         }
         
         Setslider();
@@ -70,28 +70,28 @@ public class UI_Manager : MonoBehaviour
 
     public void EndLevel()
     {
-        //ppause();
+        ppause();
         FindObjectOfType<GameManager>().NextLevel();
 
     }
     public void ExitToMenu()
     {
-        //ppause();
+        ppause();
         FindObjectOfType<GameManager>().Menu();
     }
     public void ExitToPSelect()
     {
-        //ppause();
+        ppause();
         FindObjectOfType<GameManager>().Load(1);
     }
     public void ReloadScene()
     {
-        //ppause();
+        ppause();
         FindObjectOfType<GameManager>().Reload();
     }
     public void ExitToDesktop()
     {
-        //ppause();
+        ppause();
         Application.Quit();
     }
 }

@@ -101,7 +101,7 @@ public class GameManager : MonoBehaviour
         {
             audios.clip = otherClip;
             audios.loop = true;
-            audios.Play();
+            audios.PlayDelayed(-1);
         }
 
     }
@@ -174,9 +174,7 @@ public class GameManager : MonoBehaviour
 
     public void Menu()
     {
-        audios.clip = menu;
-        audios.loop = true;
-        audios.Play();
+        
         X = 0;
         Y = 0;
         Load(0);
@@ -202,13 +200,15 @@ public class GameManager : MonoBehaviour
             audios.clip = Level[i];
             audios.loop = false;
             audios.Play();
+            
         }
         else
         {
-            Menu();
+            audios.clip = menu;
+            audios.loop = true;
+            audios.Play();
         }
         b = false;
-
         SceneManager.LoadScene(i);
     }
 
