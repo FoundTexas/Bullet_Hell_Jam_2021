@@ -21,6 +21,7 @@ public class Enemy : MonoBehaviour
     {
         if (!dead)
         {
+
             facingRight = (target.position.x < transform.position.x) ? false : true;
             if (facingRight)
             {

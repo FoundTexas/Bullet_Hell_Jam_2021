@@ -57,8 +57,8 @@ public class WalkBehavior : StateMachineBehaviour
 
         //float minWidth = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 10)).x;
         //float maxWidth = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 10)).x;
-        animator.transform.position = new Vector2(animator.transform.position.x,
-            Mathf.Clamp(animator.transform.position.y, minHeight, maxHeight));
+        //animator.transform.position = new Vector2(animator.transform.position.x,
+            //Mathf.Clamp(animator.transform.position.y, minHeight, maxHeight));
 
         /*if (Vector2.Distance(animator.transform.position, target) < 0.01f)
         {

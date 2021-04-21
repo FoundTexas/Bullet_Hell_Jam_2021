@@ -31,6 +31,11 @@ public class FireScript2 : MonoBehaviour
         CancelInvoke();
         InvokeRepeating("Fire", 0f, fireRate);
     }
+    private void OnEnable()
+    {
+        Debug.Log("1");
+        InvokeRepeating("Fire", 0f, fireRate);
+    }
     private void OnDisable()
     {
         Debug.Log("off");

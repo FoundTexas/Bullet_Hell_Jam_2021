@@ -8,9 +8,12 @@ public class Spawner : MonoBehaviour
     public GameObject[] Enemies;
 
     public GameObject child;
+    Transform target;
     // Start is called before the first frame update
     void Start()
     {
+        
+        target = FindObjectOfType<Player>().transform;
         Spawn();
     }
 
@@ -19,10 +22,9 @@ public class Spawner : MonoBehaviour
         int r = Random.Range(0, 3);
         switch (r) {
             case 0:
-                child = Instantiate(Enemies[Random.Range(0, Enemies.Length)],this.transform.position,Quaternion.identity,this.transform);
+                child = Instantiate(Enemies[Random.Range(0, Enemies.Length)],this.transform.position,Quaternion.identity);
                 break;
             case 1:
-                child = Instantiate(Enemies[1], this.transform.position, Quaternion.identity, this.transform);
                 break;
             case 2:
                 break;
@@ -34,6 +36,16 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (child != null)
+        {
+            if (Vector2.Distance(target.position, transform.position) > 20)
+            {
+                child.SetActive(false);
+            }
+            else
+            {
+                child.SetActive(true);
+            }
+        }
     }
 }

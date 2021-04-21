@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
-    void FixedUpdate()
+    void Update()
     {
         transform.Translate(Direction * Speed * Time.deltaTime);
     }

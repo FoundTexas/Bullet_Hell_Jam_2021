@@ -255,7 +255,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9ea801b9c0fa15a4783a3c3d673e42d9, type: 3}
+  m_Sprite: {fileID: -2920528724290299339, guid: 9f9a0da555d890e408ce6e6762751992,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -325,16 +326,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce6da642bd7264f3da139603b284a718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  writing: 0
   Portrait: {fileID: 1445065440551272067}
   FullName: {fileID: 2748859818062584012}
   dialog: {fileID: 6352078543146716713}
-  delay: 0.1
   IndexPortait: 0
   IndexPortaitTwo: 0
   Dialogue: 
   audio: {fileID: 5840015580004719585}
   clip: {fileID: 0}
-  writing: 0
 --- !u!114 &2189548124385717141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -748,9 +748,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e25310bf9a2f0054c951e4c339fd7246, type: 3}
+  m_Sprite: {fileID: 2061027191529856792, guid: b0a3fcd6656859140bf1672b07605897,
+    type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1012,16 +1013,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce6da642bd7264f3da139603b284a718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  writing: 0
   Portrait: {fileID: 2496226534338633888}
   FullName: {fileID: 3494264084338658254}
   dialog: {fileID: 15929055218368626}
-  delay: 0.1
   IndexPortait: 0
   IndexPortaitTwo: 0
   Dialogue: 
   audio: {fileID: 3517484222693553841}
   clip: {fileID: 0}
-  writing: 0
 --- !u!222 &6124822193722391040
 CanvasRenderer:
   m_ObjectHideFlags: 0
