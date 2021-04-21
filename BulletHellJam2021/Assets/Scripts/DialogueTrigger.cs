@@ -20,9 +20,10 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            audios.Play();
+            //audios.Play();
             FindObjectOfType<DialogDisplay>().StarDialogue(conversation[PlayerPrefs.GetInt("lang")]);
             FindObjectOfType<ExitLevel>().AddKey();
+            Destroy(this.gameObject);
             //Destroy(this.gameObject);
         }
     }

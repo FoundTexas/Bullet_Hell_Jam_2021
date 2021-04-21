@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f990afa63bb14019a85e2def0c10b40, type: 3}
-  m_Name: test2
+  m_Name: cacasEl
   m_EditorClassIdentifier: 
-  fullName: TEST2
+  fullName: El Cacas
   portait:
-  - {fileID: 1067973378971580029, guid: e6a55a3864ad31b4289ffca0f9973f75, type: 3}
+  - {fileID: -4804330193270075618, guid: 31a9bbbdc070e5a42948c95671386c8b, type: 3}
   voice:
   - {fileID: 8300000, guid: d058729fe8b110b4bb3746efca674f45, type: 3}
