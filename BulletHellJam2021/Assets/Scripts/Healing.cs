@@ -10,7 +10,11 @@ public class Healing : MonoBehaviour
         if(player.gameObject.CompareTag("Player")) {
             HealAnim.SetTrigger("Pickup");
             Player player1 = player.GetComponent<Player>();
-            player1.GetHeal();
+            if(player1.HP < 4) {
+                player1.GetHeal();
+            } else if(player1.HP >= 4) {
+                player1.HP = 4;
+            }
             Destroy(gameObject);
 
         }

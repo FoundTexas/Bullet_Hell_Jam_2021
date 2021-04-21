@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public GameObject weapons;
     public Animator Healthanim;
     public Animator playerAnim;
-    int HP;
+    public int HP;
     int lives;
     bool IsHurt = true;
     float hurtTimer;

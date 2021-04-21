@@ -54,7 +54,6 @@ public class Gun : MonoBehaviour
         currentAmmo--;
 
         if(gunName == "Rifle") {
-            RifleAnim.SetTrigger("Shoot");
             Instantiate(shootParticle, firePoint.position, firePoint.rotation);
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             FindObjectOfType<SoundManager>().Play("AKShot");
@@ -63,7 +62,6 @@ public class Gun : MonoBehaviour
         }
 
         if(gunName == "Shotgun") {
-            ShotgunAnim.SetTrigger("Shoot");
             FindObjectOfType<SoundManager>().Play("ShotgunShot");
             Instantiate(shootParticle, firePoint.position, firePoint.rotation);
             for( int i = 0; i <= 4; i++) {

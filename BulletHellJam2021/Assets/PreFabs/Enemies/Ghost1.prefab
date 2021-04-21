@@ -199,4 +199,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc57833479a28254499dce7d773bd67e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  heartPiece:
+  - {fileID: 8729647667887433631, guid: d3493f01fc46fbc488dfa74a0a36979a, type: 3}
+  - {fileID: 5578686556809969841, guid: ab2da497b462d1b4d99c8845a5c8ad0b, type: 3}
+  - {fileID: 5578686556809969841, guid: ab2da497b462d1b4d99c8845a5c8ad0b, type: 3}
+  - {fileID: 5578686556809969841, guid: ab2da497b462d1b4d99c8845a5c8ad0b, type: 3}
   HP: 20

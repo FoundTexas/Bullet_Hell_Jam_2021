@@ -577,7 +577,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d48dc72ee59121349b1173d34c48d4a7, type: 2}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -693,7 +693,7 @@ MonoBehaviour:
   gunAnim: {fileID: 6344844584553729804}
   shotAnim: {fileID: 6260338237266191432}
   animator: {fileID: 9218684990463060014}
-  moveSpeed: 8
+  moveSpeed: 9
   rb: {fileID: 6446306237061250142}
   cam: {fileID: 0}
 --- !u!114 &273248676941314442
@@ -711,6 +711,7 @@ MonoBehaviour:
   weapons: {fileID: 7910286636126223313}
   Healthanim: {fileID: 2037379181559460240}
   playerAnim: {fileID: 9218684990463060014}
+  HP: 0
 --- !u!1 &7910286636126223313
 GameObject:
   m_ObjectHideFlags: 0

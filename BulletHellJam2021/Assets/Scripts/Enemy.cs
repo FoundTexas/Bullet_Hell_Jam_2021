@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public GameObject[] heartPiece;
     public int HP;
     Animator anim;
     bool dead;
@@ -38,6 +39,7 @@ public class Enemy : MonoBehaviour
     {
         if (!dead)
         {
+            FindObjectOfType<SoundManager>().Play("EnemyHit");
             HP = HP - d;
             if (HP <= 0)
             {
@@ -49,6 +51,8 @@ public class Enemy : MonoBehaviour
 
     public void DestroyEnemy()
     {
+        int rand = Random.Range(0, heartPiece.Length);
+        Instantiate(heartPiece[rand], transform.position, Quaternion.identity);
         Destroy(this.gameObject);
     }
 }
