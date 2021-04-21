@@ -10,13 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47b201221f49f47a992ce420502f78a6, type: 3}
-  m_Name: Lv1
+  m_Name: cacasENG
   m_EditorClassIdentifier: 
   Left: {fileID: 11400000, guid: 0df004901c43d6f4cad7db0e636ab668, type: 2}
   Right: {fileID: 11400000, guid: 9e1cc41ba5aac6448b3f5900ae5b2678, type: 2}
   lines:
+  - character: {fileID: 11400000, guid: 9e1cc41ba5aac6448b3f5900ae5b2678, type: 2}
+    ImageIndex: 0
+    ImageIndexTwo: 0
+    VoiceIndex: 0
+    text: '- It doesnt matter how u died, what''s important is that you keep your
+      cool.'
   - character: {fileID: 11400000, guid: 0df004901c43d6f4cad7db0e636ab668, type: 2}
     ImageIndex: 0
     ImageIndexTwo: 0
     VoiceIndex: 0
-    text: Lets see what we got here.
+    text: '- cool I guess.'
+  - character: {fileID: 11400000, guid: 9e1cc41ba5aac6448b3f5900ae5b2678, type: 2}
+    ImageIndex: 0
+    ImageIndexTwo: 0
+    VoiceIndex: 0
+    text: -Living with style, dying with style
