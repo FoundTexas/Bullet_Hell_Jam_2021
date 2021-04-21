@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c27ae85503af87499f6d195a38e43f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bp: {fileID: 0}
+  type: 0
   bulletsAmount: 2
   fireRate: 1
   StartAngle: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f930968592b80bf4aabe0301807bebde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  c: 10
+  type: 0
   rotation: 5
   bulletsAmount: 2
   fireRate: 0.1
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc57833479a28254499dce7d773bd67e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 5
+  HP: 20
 --- !u!95 &6625157453032451066
 Animator:
   serializedVersion: 3

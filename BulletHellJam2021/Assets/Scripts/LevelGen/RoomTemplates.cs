@@ -46,7 +46,8 @@ public class RoomTemplates : MonoBehaviour
         {
             int r1 = Random.Range(0, NPCs.Count);
             int r2 = Random.Range(1, rooms.Count - 2);
-            EXIT.GetComponent<ExitLevel>().needed = 1;
+
+            EXIT.GetComponent<ExitLevel>().SetKeys(1);
             Instantiate(NPCs.ToArray()[r1], rooms[r2].transform.position, Quaternion.identity);
             rooms.Remove(rooms[r2]);
 
@@ -55,7 +56,7 @@ public class RoomTemplates : MonoBehaviour
         }
         if (rooms.Count > 5)
         {
-            EXIT.GetComponent<ExitLevel>().needed = 2;
+            EXIT.GetComponent<ExitLevel>().SetKeys(2);
             for (int i = 0; i < 2; i++)
             {
                 int r1 = Random.Range(0, NPCs.Count);

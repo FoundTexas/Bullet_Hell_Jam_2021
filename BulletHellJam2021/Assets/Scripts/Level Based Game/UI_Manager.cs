@@ -10,20 +10,25 @@ public class UI_Manager : MonoBehaviour
     bool Paused;
     public Slider slider;
 
+    private GameObject player;
+    private GameObject Gun;
+
     void Start()
     {
+        Paused = false;
         Time.timeScale = 1;
-       
+        player = GameObject.FindGameObjectWithTag("Player");
+        Gun = GameObject.FindGameObjectWithTag("WH");
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        /*if (Input.GetKeyDown("p"))
+        if (Input.GetKeyDown("p"))
         {
             ppause();
-        }*/
+        }
 
     }
 
@@ -42,17 +47,26 @@ public class UI_Manager : MonoBehaviour
         FindObjectOfType<GameManager>().Changevolume(slider.value);
     }
 
-    /*public void ppause()
+    public void ppause()
     {
         Paused = !Paused;
         PauseUI.SetActive(Paused);
         Time.timeScale = (Paused) ? 0 : 1f;
-        player = FindObjectsOfType<Player>();
-        foreach (Player p in player) {
-            p.enabled = !Paused;
-                }
+        if(Paused)
+        {
+            player.GetComponent<Animator>().Play("Player_Idle");
+            player.GetComponent<TopDownMove>().enabled = false;
+            Gun.SetActive(false);
+        }
+        else if (!Paused)
+        {
+            player.GetComponent<Animator>().Play("Idle Tree");
+            player.GetComponent<TopDownMove>().enabled = true;
+            Gun.SetActive(true);
+        }
+        
         Setslider();
-    }*/
+    }
 
     public void EndLevel()
     {

@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -726,8 +726,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledBullet:
   - {fileID: 8040092447495357990, guid: 0346085b4ad9adb4d84e7506abd847ec, type: 3}
-  bullets:
-  - {fileID: 0}
+  - {fileID: 3851260056758175776, guid: 4bbfe0945a723f540a1aec6d95f0a364, type: 3}
+  - {fileID: 6635164953673346044, guid: a1b4f3e60fd39a548aa7dfbcf566b8cc, type: 3}
+  - {fileID: 2165125650157794506, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab, type: 3}
+  bullets: []
 --- !u!4 &695135263
 Transform:
   m_ObjectHideFlags: 0
@@ -1336,17 +1338,6 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3016,6 +3007,75 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1001 &6312764062038743033
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2165125650157794506, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_Name
+      value: greenbullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810073489198556887, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810073489198556887, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810073489198556887, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810073489198556887, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810073489198556887, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810073489198556887, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810073489198556887, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810073489198556887, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810073489198556887, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810073489198556887, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810073489198556887, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 33f3a5c6d2ea23e46ab7a9e88e46e1ab, type: 3}
 --- !u!224 &6332717172941357805
 RectTransform:
   m_ObjectHideFlags: 0

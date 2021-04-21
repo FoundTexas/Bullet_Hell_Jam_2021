@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
 
     public AudioClip[] Level;
 
-    public AudioClip Deadsound, menu, myst, end;
+    public AudioClip Deadsound, menu, myst, end, otherClip;
 
     AudioSource audios;
 
@@ -97,10 +97,12 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
-        /*if (Input.GetKeyDown(KeyCode.M))
+        if (!audios.isPlaying)
         {
-            ToggleSound();
-        }*/
+            audios.clip = otherClip;
+            audios.loop = true;
+            audios.Play();
+        }
 
     }
 
@@ -108,7 +110,7 @@ public class GameManager : MonoBehaviour
     {
         curS = s;
         
-        if (PlayerPrefs.HasKey(curS) && PlayerPrefs.GetInt(curS) > 0)
+        if (PlayerPrefs.HasKey(curS) && PlayerPrefs.GetInt(curS) > 0 && PlayerPrefs.GetInt(curS) <= MaxLevels)
         {
             Load(PlayerPrefs.GetInt(curS));
             return;
@@ -154,8 +156,8 @@ public class GameManager : MonoBehaviour
         {
             b = true;
             anim = GameObject.FindGameObjectWithTag("Fader").GetComponent<Animator>();
-            audios.clip = Deadsound;
-            audios.Play();
+            //audios.clip = Deadsound;
+            //audios.Play();
             StartCoroutine(Playdead());
         }
     }
@@ -167,15 +169,13 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(1);
 
-        audios.clip = Level[SceneManager.GetActiveScene().buildIndex];
-        audios.Play();
-        b = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Load(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void Menu()
     {
         audios.clip = menu;
+        audios.loop = true;
         audios.Play();
         X = 0;
         Y = 0;
@@ -197,8 +197,16 @@ public class GameManager : MonoBehaviour
         anim.SetTrigger("Start");
 
         yield return new WaitForSeconds(TransitionTime);
-        audios.clip = Level[i];
-        audios.Play();
+        if (i > 0)
+        {
+            audios.clip = Level[i];
+            audios.loop = false;
+            audios.Play();
+        }
+        else
+        {
+            Menu();
+        }
         b = false;
 
         SceneManager.LoadScene(i);
@@ -224,5 +232,6 @@ public class GameManager : MonoBehaviour
         audios.clip = end;
         audios.Play();
     }
+
 }
 

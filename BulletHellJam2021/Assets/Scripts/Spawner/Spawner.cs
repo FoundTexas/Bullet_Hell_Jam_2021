@@ -38,7 +38,7 @@ public class Spawner : MonoBehaviour
     {
         if (child != null)
         {
-            if (Vector2.Distance(target.position, transform.position) > 20)
+            if (Vector2.Distance(child.transform.position, target.transform.position) > 25)
             {
                 child.SetActive(false);
             }

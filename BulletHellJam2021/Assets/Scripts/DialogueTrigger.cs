@@ -12,42 +12,8 @@ public class DialogueTrigger : MonoBehaviour
 
     public void Start()
     {
-        switch (PlayerPrefs.GetInt(name)){
-            case 0:
-                this.gameObject.SetActive(true);
-                break;
-            case 1:
-                this.gameObject.SetActive(false);
-                break;
-        }
-        audios = GetComponent<AudioSource>();
-        audios.clip = found;
-    }
-
-    void active()
-    {
-        switch (PlayerPrefs.GetInt(name))
-        {
-            case 0:
-                this.gameObject.SetActive(true);
-                break;
-            case 1:
-                this.gameObject.SetActive(false);
-                break;
-        }
-    }
-
-    public void SetActive()
-    {
-        PlayerPrefs.SetInt(name, 0);
-        active();
-
-
-    }
-    public void DeActive()
-    {
-        PlayerPrefs.SetInt(name, 1);
-        active();
+        //audios = GetComponent<AudioSource>();
+        //audios.clip = found;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -56,8 +22,7 @@ public class DialogueTrigger : MonoBehaviour
         {
             audios.Play();
             FindObjectOfType<DialogDisplay>().StarDialogue(conversation[PlayerPrefs.GetInt("lang")]);
-            FindObjectOfType<GameManager>().Objs++;
-            DeActive();
+            FindObjectOfType<ExitLevel>().AddKey();
             //Destroy(this.gameObject);
         }
     }
