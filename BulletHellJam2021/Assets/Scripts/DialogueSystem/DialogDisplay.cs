@@ -84,13 +84,12 @@ public class DialogDisplay : MonoBehaviour
         }
         else if (Left.activeInHierarchy || Right.activeInHierarchy)
         {
-            Spawner[] enemies =  FindObjectsOfType<Spawner>();
+            Spawner[] enemies = FindObjectsOfType<Spawner>();
             foreach (Spawner E in enemies)
             {
                 E.dialogue = false;
-           
-            }
 
+            }
             speakerUILeft.Hide();
             speakerUIRight.Hide();
             player.GetComponent<Animator>().Play("Idle Tree");

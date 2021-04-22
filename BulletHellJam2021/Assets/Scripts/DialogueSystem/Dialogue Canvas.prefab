@@ -34,9 +34,9 @@ RectTransform:
   m_Father: {fileID: 4829912657901377650}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -23.2, y: 29}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -23.2, y: 0}
   m_SizeDelta: {x: 600, y: 150}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &2621565262132522471
@@ -827,7 +827,7 @@ MonoBehaviour:
     m_FontSize: 39
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 39
+    m_MinSize: 28
     m_MaxSize: 45
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -835,8 +835,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-    blah blah blah blah blah blah blah blah blah blah
+  m_Text: '-Man who would have thought that selling tacos in the middle of an abandoned
+    mansion was going to be profitable. '
 --- !u!1 &6239884357479144546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,7 +1257,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8585546914183245787}
   m_LocalRotation: {x: 0, y: 0.999962, z: -0.008726558, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 533}
+  m_LocalPosition: {x: 0, y: 0, z: 529}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4776905569633230484}
@@ -1265,9 +1265,9 @@ RectTransform:
   m_Father: {fileID: 1258404259050139449}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 1, y: 180, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -69, y: 27}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -69, y: 0}
   m_SizeDelta: {x: 600, y: 150}
   m_Pivot: {x: 1, y: 0}
 --- !u!222 &2530845482715923457

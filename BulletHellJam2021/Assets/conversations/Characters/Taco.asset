@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f990afa63bb14019a85e2def0c10b40, type: 3}
   m_Name: Taco
   m_EditorClassIdentifier: 
-  fullName: 
-  portait: []
-  voice: []
+  fullName: Business Taco
+  portait:
+  - {fileID: -6442917756204930434, guid: abd55f9586910fa4caf3789af899f838, type: 3}
+  voice:
+  - {fileID: 8300000, guid: d0106eb579d255f49ab0fee0fa1b8081, type: 3}

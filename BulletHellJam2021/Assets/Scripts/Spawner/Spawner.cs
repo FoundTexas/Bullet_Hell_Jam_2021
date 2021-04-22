@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public bool dialogue;
+    public bool dialogue = true;
     public GameObject[] Enemies;
 
     public GameObject child;
@@ -12,23 +12,19 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        dialogue = true;
         target = FindObjectOfType<Player>().gameObject;
         Spawn();
     }
 
     public void Spawn()
     {
-        int r = Random.Range(0, 3);
+        int r = Random.Range(0, 1);
         switch (r) {
             case 0:
                 child = Instantiate(Enemies[Random.Range(0, Enemies.Length)],this.transform.position,Quaternion.identity);
                 break;
             case 1:
-                break;
-            case 2:
-                break;
-            case 3:
                 break;
         }
     }

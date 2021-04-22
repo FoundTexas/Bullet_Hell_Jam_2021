@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f990afa63bb14019a85e2def0c10b40, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  fullName: test1
+  fullName: River
   portait:
   - {fileID: -530780087200706239, guid: e6a55a3864ad31b4289ffca0f9973f75, type: 3}
   voice:
-  - {fileID: 8300000, guid: 87bdaa4f56b5183458250938a8bc1781, type: 3}
+  - {fileID: 8300000, guid: 4b42ddedf8ae2a14799b49a67782a1ef, type: 3}

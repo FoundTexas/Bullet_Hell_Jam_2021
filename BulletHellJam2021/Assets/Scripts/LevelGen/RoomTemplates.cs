@@ -16,7 +16,7 @@ public class RoomTemplates : MonoBehaviour
     private bool spawnedBoss;
     public GameObject boss;
     public List<GameObject> NPCs;
-    public GameObject Spawner;
+    public GameObject[] Spawner;
 
     GameObject EXIT;
 
@@ -30,10 +30,12 @@ public class RoomTemplates : MonoBehaviour
                 if (i == rooms.Count - 1)
                 {
                     EXIT = Instantiate(boss, rooms[i].transform.position, Quaternion.identity);
+                    rooms.RemoveAt(i);
                     spawnedBoss = true;
-                    SpawnNPCs();
+                    
                 }
             }
+            SpawnNPCs();
         }
         else if (!spawnedBoss)
         {
@@ -45,7 +47,7 @@ public class RoomTemplates : MonoBehaviour
         if (rooms.Count <= 5)
         {
             int r1 = Random.Range(0, NPCs.Count);
-            int r2 = Random.Range(1, rooms.Count - 2);
+            int r2 = Random.Range(1, rooms.Count - 1);
 
             EXIT.GetComponent<ExitLevel>().SetKeys(1);
             Instantiate(NPCs.ToArray()[r1], rooms[r2].transform.position, Quaternion.identity);
@@ -60,7 +62,7 @@ public class RoomTemplates : MonoBehaviour
             for (int i = 0; i < 2; i++)
             {
                 int r1 = Random.Range(0, NPCs.Count);
-                int r2 = Random.Range(1, rooms.Count - 2);
+                int r2 = Random.Range(1, rooms.Count);
                 Instantiate(NPCs.ToArray()[r1], rooms.ToArray()[r2].transform.position, Quaternion.identity);
                 NPCs.Remove(NPCs.ToArray()[r1]);
                 rooms.RemoveAt(r2);
@@ -73,10 +75,10 @@ public class RoomTemplates : MonoBehaviour
 
     void SetSpawners()
     {
-        for (int i = 0; i < rooms.Count - 2; i++)
+        for (int i = 0; i < rooms.Count; i++)
         {
-            int r2 = Random.Range(1, rooms.Count - 2);
-            Instantiate(Spawner, rooms.ToArray()[r2].transform.position, Quaternion.identity);
+            int r2 = Random.Range(1, rooms.Count);
+            Instantiate(Spawner[Random.Range(0,Spawner.Length)], rooms.ToArray()[r2].transform.position, Quaternion.identity);
           
             rooms.RemoveAt(r2);
 

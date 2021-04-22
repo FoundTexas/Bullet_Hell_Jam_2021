@@ -17,9 +17,9 @@ public class GameManager : MonoBehaviour
     public float Y;
     public int Objs;
 
-    public AudioClip[] Level;
+    public Sound[] Level;
 
-    public AudioClip Deadsound, menu, myst, end, otherClip;
+    public Sound Deadsound, menu, myst, end, otherClip;
 
     AudioSource audios;
 
@@ -90,7 +90,9 @@ public class GameManager : MonoBehaviour
         }
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
-            audios.clip = menu;
+            audios.clip = menu.clip;
+            audios.volume = menu.volume;
+            audios.loop = true;
             audios.Play();
         }
         b = false;
@@ -99,7 +101,8 @@ public class GameManager : MonoBehaviour
     {
         if (!audios.isPlaying)
         {
-            audios.clip = otherClip;
+            audios.clip = otherClip.clip;
+            audios.volume = otherClip.volume;
             audios.loop = true;
             audios.PlayDelayed(-1);
         }
@@ -137,13 +140,15 @@ public class GameManager : MonoBehaviour
             SaveGame(1);
             Debug.Log("1");
             Load(SceneManager.GetActiveScene().buildIndex + 1);
-            audios.clip = Level[SceneManager.GetActiveScene().buildIndex];
+            audios.clip = Level[SceneManager.GetActiveScene().buildIndex].clip;
+            audios.volume = Level[SceneManager.GetActiveScene().buildIndex].volume;
             audios.Play();
         }
         else if (SceneManager.GetActiveScene().buildIndex >= MaxLevels)
         {
             SaveGame(0);
-            audios.clip = menu;
+            audios.clip = menu.clip;
+            audios.volume = menu.volume;
             audios.Play();
             Debug.Log("2");
             Load(0);
@@ -197,14 +202,16 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(TransitionTime);
         if (i > 0)
         {
-            audios.clip = Level[i];
+            audios.clip = Level[i].clip;
+            audios.volume = Level[i].volume;
             audios.loop = false;
             audios.Play();
             
         }
         else
         {
-            audios.clip = menu;
+            audios.clip = menu.clip;
+            audios.volume = menu.volume;
             audios.loop = true;
             audios.Play();
         }
@@ -229,7 +236,9 @@ public class GameManager : MonoBehaviour
     }
     public void EndSong()
     {
-        audios.clip = end;
+        audios.clip = end.clip;
+        audios.volume = end.volume;
+        audios.loop = false;
         audios.Play();
     }
 
