@@ -195,7 +195,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PlayerHeal
     clip: {fileID: 8300000, guid: c3e840966e512c942bf142096aa4ccf3, type: 3}
-    volume: 0.7
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -238,14 +238,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 133646880644539326, guid: e4d45b61623360142ba3e986c00cc574,
         type: 3}
-<<<<<<< Updated upstream
-=======
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 133646880644539326, guid: e4d45b61623360142ba3e986c00cc574,
-        type: 3}
->>>>>>> Stashed changes
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -263,6 +255,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 133646880644539326, guid: e4d45b61623360142ba3e986c00cc574,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 133646880644539326, guid: e4d45b61623360142ba3e986c00cc574,
         type: 3}
