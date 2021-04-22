@@ -21,6 +21,8 @@ public class DialogDisplay : MonoBehaviour
 
     private AudioSource audios;
 
+    public bool m;
+
     void Start()
     {
         audios = GetComponent<AudioSource>();
@@ -29,8 +31,12 @@ public class DialogDisplay : MonoBehaviour
         speakerUILeft = Left.GetComponent<SpeakerUI>();
         speakerUIRight = Right.GetComponent<SpeakerUI>();
 
-        player = GameObject.FindGameObjectWithTag("Player");
-        Gun = GameObject.FindGameObjectWithTag("WH");
+        if (!m)
+        {
+
+            player = GameObject.FindGameObjectWithTag("Player");
+            Gun = GameObject.FindGameObjectWithTag("WH");
+        }
         StarDialogue(conversation);
         //speakerUILeft.Speaker = conversation.Left;
         //speakerUIRight.Speaker = conversation.Right;
@@ -43,14 +49,17 @@ public class DialogDisplay : MonoBehaviour
 
     public void StarDialogue(Conversation conver)
     {
-        player.GetComponent<Animator>().Play("Player_Idle");
-        player.GetComponent<TopDownMove>().enabled = false;
-        Gun.SetActive(false);
-        Spawner[] enemies = FindObjectsOfType<Spawner>();
-        foreach (Spawner E in enemies)
+        if (!m)
         {
-            E.dialogue = true;
+            player.GetComponent<Animator>().Play("Player_Idle");
+            player.GetComponent<TopDownMove>().enabled = false;
+            Gun.SetActive(false);
+            Spawner[] enemies = FindObjectsOfType<Spawner>();
+            foreach (Spawner E in enemies)
+            {
+                E.dialogue = true;
 
+            }
         }
 
         //player.GetComponent<Player>().Dialogue();
@@ -84,17 +93,23 @@ public class DialogDisplay : MonoBehaviour
         }
         else if (Left.activeInHierarchy || Right.activeInHierarchy)
         {
-            Spawner[] enemies = FindObjectsOfType<Spawner>();
-            foreach (Spawner E in enemies)
+            if (!m)
             {
-                E.dialogue = false;
+                Spawner[] enemies = FindObjectsOfType<Spawner>();
+                foreach (Spawner E in enemies)
+                {
+                    E.dialogue = false;
 
+                }
             }
             speakerUILeft.Hide();
             speakerUIRight.Hide();
-            player.GetComponent<Animator>().Play("Idle Tree");
-            player.GetComponent<TopDownMove>().enabled = true;
-            Gun.SetActive(true);
+            if (!m)
+            {
+                player.GetComponent<Animator>().Play("Idle Tree");
+                player.GetComponent<TopDownMove>().enabled = true;
+                Gun.SetActive(true);
+            }
 
             //player.GetComponent<Player>().Dialogue();
 

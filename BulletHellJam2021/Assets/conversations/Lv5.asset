@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47b201221f49f47a992ce420502f78a6, type: 3}
-  m_Name: Lv2
+  m_Name: Lv5
   m_EditorClassIdentifier: 
   Left: {fileID: 11400000, guid: 0df004901c43d6f4cad7db0e636ab668, type: 2}
-  Right: {fileID: 11400000, guid: 2438b250b4e24364c9531f8514eda73a, type: 2}
+  Right: {fileID: 11400000, guid: f213b9fe4cc5aef40a7ff90990c60351, type: 2}
   lines:
   - character: {fileID: 11400000, guid: 0df004901c43d6f4cad7db0e636ab668, type: 2}
     ImageIndex: 0
     ImageIndexTwo: 0
     VoiceIndex: 0
-    text: That portal sent me to another part of the mansion.
+    text: Lets go on!
   - character: {fileID: 11400000, guid: 0df004901c43d6f4cad7db0e636ab668, type: 2}
     ImageIndex: 0
     ImageIndexTwo: 0
     VoiceIndex: 0
-    text: This place is HUGE.
+    text: We must be near.

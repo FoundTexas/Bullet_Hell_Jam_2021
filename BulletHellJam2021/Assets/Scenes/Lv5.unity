@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -335,7 +335,7 @@ PrefabInstance:
         type: 3}
       propertyPath: conversation
       value: 
-      objectReference: {fileID: 11400000, guid: 198252915d2d8e24e9dc0e345bf9b9ef,
+      objectReference: {fileID: 11400000, guid: 51bcc9997d2cf764d9397faa29cad032,
         type: 2}
     - target: {fileID: 723634710471423537, guid: e4d45b61623360142ba3e986c00cc574,
         type: 3}
@@ -531,7 +531,7 @@ MonoBehaviour:
   waitTime: 1
   boss: {fileID: 147959665205410583, guid: 0747ec4eb6d043e4193ba8f9c971db78, type: 3}
   NPCs:
-  - {fileID: 5406884816228750212, guid: 160639b388c5b7a42ac33f4a2393a06a, type: 3}
+  - {fileID: 4887555543063975081, guid: 006ef0fab06ef494fa67c182e17314bf, type: 3}
   - {fileID: 3713581756429014160, guid: 7eb8f1f06dbf1d54dad3e0f2f936c33f, type: 3}
   Spawner:
   - {fileID: 1945552495613854810, guid: 20e6849be6c3d264f862464ebb3d9b39, type: 3}

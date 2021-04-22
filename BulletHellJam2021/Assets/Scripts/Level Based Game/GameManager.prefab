@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TransitionTime: 1
-  MaxLevels: 2
+  MaxLevels: 6
   X: 0
   Y: 0
   Objs: 0
@@ -59,6 +59,36 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: 
     clip: {fileID: 8300000, guid: 3c4508cfa1e8bf247877450c39ffb6da, type: 3}
+    volume: 0.442
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: 3c4508cfa1e8bf247877450c39ffb6da, type: 3}
+    volume: 0.442
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: 3c4508cfa1e8bf247877450c39ffb6da, type: 3}
+    volume: 0.442
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: 3c4508cfa1e8bf247877450c39ffb6da, type: 3}
+    volume: 0.442
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: 3c4508cfa1e8bf247877450c39ffb6da, type: 3}
+    volume: 0.442
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: bc9b55e754a404e46ad329fac5fbf614, type: 3}
     volume: 0.442
     pitch: 0
     loop: 0

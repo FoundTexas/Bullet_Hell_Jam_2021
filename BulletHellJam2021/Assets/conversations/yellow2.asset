@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b201221f49f47a992ce420502f78a6, type: 3}
+  m_Name: yellow2
+  m_EditorClassIdentifier: 
+  Left: {fileID: 11400000, guid: 8a2ae071113da1d49a7fe8df40d29577, type: 2}
+  Right: {fileID: 11400000, guid: 0df004901c43d6f4cad7db0e636ab668, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 8a2ae071113da1d49a7fe8df40d29577, type: 2}
+    ImageIndex: 0
+    ImageIndexTwo: 0
+    VoiceIndex: 0
+    text: '- Hey.... can we talk for a second.'
+  - character: {fileID: 11400000, guid: 8a2ae071113da1d49a7fe8df40d29577, type: 2}
+    ImageIndex: 0
+    ImageIndexTwo: 0
+    VoiceIndex: 0
+    text: "- I\xB4ve notice you been very streesed out lately an I just wanted to
+      say...."
+  - character: {fileID: 11400000, guid: 8a2ae071113da1d49a7fe8df40d29577, type: 2}
+    ImageIndex: 0
+    ImageIndexTwo: 0
+    VoiceIndex: 0
+    text: '- Is okay to take it easy from time to time.'
+  - character: {fileID: 11400000, guid: 8a2ae071113da1d49a7fe8df40d29577, type: 2}
+    ImageIndex: 0
+    ImageIndexTwo: 0
+    VoiceIndex: 0
+    text: '- I mean I get it you have to cross that portal but, do you really have
+      to tho?'
+  - character: {fileID: 11400000, guid: 8a2ae071113da1d49a7fe8df40d29577, type: 2}
+    ImageIndex: 0
+    ImageIndexTwo: 0
+    VoiceIndex: 0
+    text: "- But, you do you I\xB4ll be here waiting friend... can I call you that?"
+  - character: {fileID: 11400000, guid: 8a2ae071113da1d49a7fe8df40d29577, type: 2}
+    ImageIndex: 0
+    ImageIndexTwo: 0
+    VoiceIndex: 0
+    text: '- see you I guess.'
