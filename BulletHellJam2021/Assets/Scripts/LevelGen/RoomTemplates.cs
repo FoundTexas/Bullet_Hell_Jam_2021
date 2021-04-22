@@ -9,6 +9,7 @@ public class RoomTemplates : MonoBehaviour
     public GameObject[] TopRooms;
     public GameObject[] BottomRooms;
 
+    public GameObject EmptyRoom;
 
     public List<GameObject> rooms;
 
@@ -82,6 +83,10 @@ public class RoomTemplates : MonoBehaviour
           
             rooms.RemoveAt(r2);
 
+        }
+        foreach(GameObject r in rooms)
+        {
+            Instantiate(EmptyRoom, r.transform.position, Quaternion.identity);
         }
     }
 }
