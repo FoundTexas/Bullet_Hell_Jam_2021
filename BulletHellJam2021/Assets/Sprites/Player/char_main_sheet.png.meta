@@ -132,6 +132,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -141,8 +142,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -964,6 +965,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      WeaponUp_Idle3: 4909492525958013171
+      WeaponDown_Run1: -8306326134097051609
+      WeaponUp_Run4: -2265114056192128519
+      WeaponUp_Run1: 521592653352329566
+      WeaponForward_Run4: -841579771947862091
+      NoWeapon_Run2: 4956958048323881777
+      NoWeapon_Run6: -4094875897694362729
+      WeaponUp_Run6: -6781501877145193200
+      NoWeapon_Idle2: 4227505320111523173
+      WeaponDown_Run5: -7418004228313131436
+      NoWeapon_Idle3: -530780087200706239
+      WeaponForward_Run3: -6242323664798083115
+      WeaponUp_Idle2: -8323503438585839675
+      WeaponUp_Run2: -7292929346928493703
+      WeaponForward_Run1: 1286978891832102676
+      WeaponForward_Idle1: -7933733558413733583
+      WeaponDown_Idle2: 9073197848957048364
+      NoWeapon_Run3: 3789487569276609104
+      WeaponDown_Run6: -2746568901960534929
+      NoWeapon_Idle1: 3719299328343035327
+      WeaponForward_Idle3: -6682330425330527966
+      WeaponDown_Idle3: 9202054953228599273
+      WeaponDown_Idle1: 7789511163814991756
+      char_main_sheet_23: 1067973378971580029
+      NoWeapon_Run1: 7544083821979515125
+      WeaponUp_Run3: -3097255735662651984
+      WeaponDown_Run3: 342680296052528769
+      WeaponUp_Idle1: 6782580650034682379
+      NoWeapon_Run4: -7812904548728837505
+      WeaponForward_Idle2: -4759004573097739751
+      WeaponForward_Run5: 2501834329503470320
+      NoWeapon_Run5: 7766272949722138824
+      WeaponUp_Run5: 2639389782222017023
+      WeaponDown_Run2: 4580896686329498528
+      WeaponForward_Run2: -4636899765207349258
+      WeaponDown_Run4: 528152883065263012
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

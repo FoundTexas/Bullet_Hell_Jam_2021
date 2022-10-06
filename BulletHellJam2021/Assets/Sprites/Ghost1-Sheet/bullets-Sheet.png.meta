@@ -134,6 +134,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -143,8 +145,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -165,9 +167,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -1020,6 +1025,44 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      bullets-Sheet_7: -8600079749052714265
+      bullets-Sheet_15: 2522110034865248514
+      bullets-Sheet_11: -3342224171057209084
+      bullets-Sheet_14: 8640241672988998088
+      bullets-Sheet_20: 7682161881564465433
+      bullets-Sheet_34: 7750465504549690072
+      bullets-Sheet_17: 4975297131950585573
+      bullets-Sheet_28: 4576828860416831708
+      bullets-Sheet_19: -6238498863603165638
+      bullets-Sheet_21: 2223622941793349459
+      bullets-Sheet_31: 7393750840999972584
+      bullets-Sheet_29: 393611139595563157
+      bullets-Sheet_33: 135206105285576560
+      bullets-Sheet_32: 2852991202538730447
+      bullets-Sheet_36: 8743412111969901501
+      bullets-Sheet_3: -2842505932041383025
+      bullets-Sheet_5: -2370816923469930094
+      bullets-Sheet_6: -7933690875387749137
+      bullets-Sheet_10: 7008253176715338184
+      bullets-Sheet_2: -5023141001785087328
+      bullets-Sheet_35: 579248952762190084
+      bullets-Sheet_13: 2065163029396852442
+      bullets-Sheet_8: 4785303163883169837
+      bullets-Sheet_1: 717609044018241424
+      bullets-Sheet_4: -303870990416712272
+      bullets-Sheet_24: -5528416177106191280
+      bullets-Sheet_27: 503785152734562955
+      bullets-Sheet_22: 6285103907939563670
+      bullets-Sheet_25: -1225359657868988472
+      bullets-Sheet_30: 8559425971256896107
+      bullets-Sheet_26: -3836841727060295802
+      bullets-Sheet_16: 2778539607848695229
+      bullets-Sheet_9: -5582687541622578785
+      bullets-Sheet_12: -694364388329518613
+      bullets-Sheet_18: 7450623904999814986
+      bullets-Sheet_0: -4134921389409477220
+      bullets-Sheet_23: 8132526797661997573
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

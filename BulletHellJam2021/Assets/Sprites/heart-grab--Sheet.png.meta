@@ -143,6 +143,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -152,8 +154,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -174,9 +176,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -1056,6 +1061,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      heart-grab--Sheet_34: 1723309035135615093
+      heart-grab--Sheet_7: 237943634301954764
+      heart-grab--Sheet_26: 3242212282718471963
+      heart-grab--Sheet_12: 2035898201038587590
+      heart-grab--Sheet_4: -75415261876334661
+      heart-grab--Sheet_16: 2710598696236189949
+      heart-grab--Sheet_27: -1373075371279849440
+      heart-grab--Sheet_5: 4364904465888573154
+      heart-grab--Sheet_6: -7215170266552347612
+      heart-grab--Sheet_14: 7612364324765033707
+      heart-grab--Sheet_18: -5847864615306945616
+      heart-grab--Sheet_20: 4095291036012756912
+      heart-grab--Sheet_25: 6394495082082181832
+      heart-grab--Sheet_2: -1464326702693126854
+      heart-grab--Sheet_28: 5535956058883131574
+      heart-grab--Sheet_19: 806374589042526621
+      heart-grab--Sheet_8: 8769090542251043435
+      heart-grab--Sheet_30: 5981835226181434623
+      heart-grab--Sheet_36: -7264788396111682991
+      heart-grab--Sheet_31: -3729221419224385058
+      heart-grab--Sheet_38: 1692994272851146953
+      heart-grab--Sheet_10: 3790918102024922910
+      heart-grab--Sheet_0: 3579907730921266776
+      heart-grab--Sheet_1: -1132331529667478658
+      heart-grab--Sheet_13: 8052622135273291450
+      heart-grab--Sheet_29: -3280099767995691061
+      heart-grab--Sheet_9: 3859737750649777631
+      heart-grab--Sheet_35: -1443960812963907515
+      heart-grab--Sheet_23: 3246653774143990907
+      heart-grab--Sheet_22: 8186764962654025571
+      heart-grab--Sheet_17: -5237852426270258767
+      heart-grab--Sheet_21: -44604981696087034
+      heart-grab--Sheet_3: -7781809040340495321
+      heart-grab--Sheet_11: -4909654403946299905
+      heart-grab--Sheet_37: -907252037275396697
+      heart-grab--Sheet_24: 7713032369150101824
+      heart-grab--Sheet_15: 2344415717015798995
+      heart-grab--Sheet_32: 7633287555768401528
+      heart-grab--Sheet_39: 4659418909865226207
+      heart-grab--Sheet_33: -2328982225527379664
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

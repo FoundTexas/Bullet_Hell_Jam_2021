@@ -107,6 +107,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -116,11 +118,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -138,9 +140,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -804,6 +809,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Ghost2-Sheet_8: -8762282871853928682
+      Ghost2-Sheet_11: -7204938014127041990
+      Ghost2-Sheet_9: 7408781915520330140
+      Ghost2-Sheet_13: -7152236860922651062
+      Ghost2-Sheet_21: -5976079041708085266
+      Ghost2-Sheet_1: 1668754995260706519
+      Ghost2-Sheet_17: 1960875749776581546
+      Ghost2-Sheet_19: -8258138186270803707
+      Ghost2-Sheet_26: -3359878921983447301
+      Ghost2-Sheet_27: -6495954999709326756
+      Ghost2-Sheet_6: 871862540378449479
+      Ghost2-Sheet_16: -6495531442893496141
+      Ghost2-Sheet_10: -723786745019924163
+      Ghost2-Sheet_12: -7913785639311048145
+      Ghost2-Sheet_14: -1514022513371125965
+      Ghost2-Sheet_4: -3158678256293713013
+      Ghost2-Sheet_3: -4154727417507268805
+      Ghost2-Sheet_20: 1521806751447623996
+      Ghost2-Sheet_18: 7812144589666243239
+      Ghost2-Sheet_0: -4389590359123573860
+      Ghost2-Sheet_5: 7103422054478883284
+      Ghost2-Sheet_22: 7140568755394388721
+      Ghost2-Sheet_15: 6360661240249456285
+      Ghost2-Sheet_7: -5476952293164749643
+      Ghost2-Sheet_23: 2225629490405789588
+      Ghost2-Sheet_25: -3870965865077343404
+      Ghost2-Sheet_2: 5738129389352669021
+      Ghost2-Sheet_24: 1323891203591657816
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

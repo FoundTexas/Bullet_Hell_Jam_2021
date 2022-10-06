@@ -107,6 +107,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -116,8 +118,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -138,9 +140,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -806,6 +811,35 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: c6a399f326eca7141b2a254fc9cc5de2, type: 3}
       name: Emission
+    nameFileIdTable:
+      Ghost4-Sheet_11: 6345516743156993332
+      Ghost4-Sheet_0: 4215263357490078567
+      Ghost4-Sheet_16: -6865257224655791794
+      Ghost4-Sheet_4: -758745768662034282
+      Ghost4-Sheet_14: 7206159714459190899
+      Ghost4-Sheet_6: 3518670187612242774
+      Ghost4-Sheet_26: 1353370892423739612
+      Ghost4-Sheet_3: -3210852023955842077
+      Ghost4-Sheet_24: 2673217436215270240
+      Ghost4-Sheet_23: -3962034565456769185
+      Ghost4-Sheet_17: -5415041269362538629
+      Ghost4-Sheet_7: 543564075980015341
+      Ghost4-Sheet_1: -6649863863325947961
+      Ghost4-Sheet_12: -2029540452021027162
+      Ghost4-Sheet_9: -4925344969920807813
+      Ghost4-Sheet_21: 2654386263922794719
+      Ghost4-Sheet_20: -1141103402246157448
+      Ghost4-Sheet_5: 7167367420281785754
+      Ghost4-Sheet_15: 5176486833628639754
+      Ghost4-Sheet_27: 8151437522054163757
+      Ghost4-Sheet_19: 3411265908195017239
+      Ghost4-Sheet_25: -1179613055637505250
+      Ghost4-Sheet_22: -2298034399245688469
+      Ghost4-Sheet_8: 6720811653081733761
+      Ghost4-Sheet_2: 1358017153463690891
+      Ghost4-Sheet_10: 8832684878147230043
+      Ghost4-Sheet_18: 90295475314257218
+      Ghost4-Sheet_13: 6584385961833660523
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

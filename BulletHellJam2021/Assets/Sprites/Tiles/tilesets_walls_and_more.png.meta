@@ -362,6 +362,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -371,8 +373,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -393,9 +395,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -2132,6 +2137,86 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: 1983480f7080a264689aeff9845a3b92, type: 3}
       name: _NormalMap
+    nameFileIdTable:
+      tilesets_walls_and_more_50: 2378533379298931346
+      tilesets_walls_and_more_110: -4866182895117056071
+      tilesets_walls_and_more_65: 5588541682645844895
+      tilesets_walls_and_more_24: 8142805051656610094
+      tilesets_walls_and_more_101: -8955643124854016658
+      tilesets_walls_and_more_64: 6588565098540437322
+      tilesets_walls_and_more_26: 4010682219826456576
+      tilesets_walls_and_more_53: 4589315960999384229
+      tilesets_walls_and_more_10: 2028098347349240
+      tilesets_walls_and_more_15: 3498549357924227130
+      tilesets_walls_and_more_27: -1866449202900129764
+      tilesets_walls_and_more_88: -6013397798863646010
+      tilesets_walls_and_more_29: 753009297214094792
+      tilesets_walls_and_more_32: -8179373301996395357
+      tilesets_walls_and_more_19: 1078133656657287473
+      tilesets_walls_and_more_55: -2924787102851442339
+      tilesets_walls_and_more_67: 2386740550604926291
+      tilesets_walls_and_more_42: 7873646438198949105
+      tilesets_walls_and_more_2: -3175926024848828113
+      tilesets_walls_and_more_54: -7631620385657458754
+      tilesets_walls_and_more_112: 404798571189517513
+      tilesets_walls_and_more_111: 1376574000037965021
+      tilesets_walls_and_more_37: 8873328326951225666
+      tilesets_walls_and_more_49: 7388913587570539909
+      tilesets_walls_and_more_41: 4172391258843988121
+      tilesets_walls_and_more_66: -4255529006260008251
+      tilesets_walls_and_more_74: -1552460215728479388
+      tilesets_walls_and_more_18: -6693557232801810771
+      tilesets_walls_and_more_83: -6980973639756012591
+      tilesets_walls_and_more_75: 8781759985562681845
+      tilesets_walls_and_more_103: -7122697762089910126
+      tilesets_walls_and_more_102: 8045766578801115953
+      tilesets_walls_and_more_52: 2028468960450670
+      tilesets_walls_and_more_17: -8745511531744956764
+      tilesets_walls_and_more_12: 3050987240605754891
+      tilesets_walls_and_more_76: -930433407506224659
+      tilesets_walls_and_more_8: 3951816840731590358
+      tilesets_walls_and_more_56: -4476125858224128090
+      tilesets_walls_and_more_78: -6427990615532440929
+      tilesets_walls_and_more_97: -2128171954403808522
+      tilesets_walls_and_more_105: -9103461465546953049
+      tilesets_walls_and_more_39: -2185432079656689776
+      tilesets_walls_and_more_96: 2965484618058925112
+      tilesets_walls_and_more_90: 6065924207318283797
+      tilesets_walls_and_more_1: 6173209726140965963
+      tilesets_walls_and_more_36: -5192758811309632469
+      tilesets_walls_and_more_34: 6523366254424846413
+      tilesets_walls_and_more_62: -412435760676901109
+      tilesets_walls_and_more_30: 7859316835563743747
+      tilesets_walls_and_more_69: -4743307023296347129
+      tilesets_walls_and_more_104: 242952051772271205
+      tilesets_walls_and_more_86: -873507232330386836
+      tilesets_walls_and_more_84: 8734456148991117311
+      tilesets_walls_and_more_28: 5499731165598724347
+      tilesets_walls_and_more_68: -5622678021983052412
+      tilesets_walls_and_more_35: 4125473466645184120
+      tilesets_walls_and_more_100: 6028684524184927109
+      tilesets_walls_and_more_98: 2482865493719944599
+      tilesets_walls_and_more_91: -7448990250238747219
+      tilesets_walls_and_more_77: -8019801272481247471
+      tilesets_walls_and_more_57: 6575580454285771226
+      tilesets_walls_and_more_85: -605540008608909515
+      tilesets_walls_and_more_99: 7075416758820853310
+      tilesets_walls_and_more_11: -5240789768928718190
+      tilesets_walls_and_more_40: -5510829499174418842
+      tilesets_walls_and_more_9: -7100764697820523916
+      tilesets_walls_and_more_43: 1884451563450150901
+      tilesets_walls_and_more_107: -5940349055616991804
+      tilesets_walls_and_more_51: -8283659588400741424
+      tilesets_walls_and_more_7: -4733362766015178254
+      tilesets_walls_and_more_25: -2315892152066221565
+      tilesets_walls_and_more_0: 1296629659547385962
+      tilesets_walls_and_more_63: -4190922810729386654
+      tilesets_walls_and_more_16: 1994366133992354962
+      tilesets_walls_and_more_109: 4427600543078881713
+      tilesets_walls_and_more_87: -6227564682196159481
+      tilesets_walls_and_more_38: -1373723815831293872
+      tilesets_walls_and_more_89: -2848836563816893096
+      tilesets_walls_and_more_59: -7853600512931667528
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

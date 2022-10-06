@@ -278,6 +278,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -287,11 +289,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -309,9 +311,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -2136,6 +2141,92 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Heart-Sheet_53: -2236509011414947259
+      Heart-Sheet_27: 9222986705483580690
+      Heart-Sheet_13: 2458852647321752559
+      Heart-Sheet_84: 7596981306628286671
+      Heart-Sheet_52: -4533714360848213636
+      Heart-Sheet_71: -2690277362389063993
+      Heart-Sheet_17: -6651767835190354791
+      Heart-Sheet_36: 6275788182528373049
+      Heart-Sheet_67: 2446630014167676773
+      Heart-Sheet_26: -9168942199947978169
+      Heart-Sheet_40: -7074357193306475025
+      Heart-Sheet_49: -4082105873485322990
+      Heart-Sheet_42: -9160861503261151273
+      Heart-Sheet_43: 6005162843762710308
+      Heart-Sheet_57: -330254306010668157
+      Heart-Sheet_9: 8023557326353535744
+      Heart-Sheet_23: 5278651147971579531
+      Heart-Sheet_21: -6563497116235761823
+      Heart-Sheet_30: -1055776176506829128
+      Heart-Sheet_32: 5664891415432476798
+      Heart-Sheet_62: -8965200442477278049
+      Heart-Sheet_1: 4409817262345531807
+      Heart-Sheet_37: 2513422891616749577
+      Heart-Sheet_48: 2359824624775036665
+      Heart-Sheet_58: -5527140119781873446
+      Heart-Sheet_74: -1847141543868651297
+      Heart-Sheet_35: -960293012489330096
+      Heart-Sheet_61: 7019676016290103764
+      Heart-Sheet_10: 3248624971633443638
+      Heart-Sheet_12: -4899078768438800141
+      Heart-Sheet_47: -1616324968157705373
+      Heart-Sheet_46: 5034838031371967494
+      Heart-Sheet_14: 6627094094765788025
+      Heart-Sheet_51: 3007110539290130646
+      Heart-Sheet_72: -8869196384119602960
+      Heart-Sheet_83: 3065323054362857672
+      Heart-Sheet_11: 4571853755678068488
+      Heart-Sheet_56: 7285458466735411760
+      Heart-Sheet_60: 4214066030107729778
+      Heart-Sheet_29: 6683677108564599037
+      Heart-Sheet_82: -8116335889920249250
+      Heart-Sheet_25: -2999130532447155420
+      Heart-Sheet_80: -1724407831188293423
+      Heart-Sheet_77: 5292211494934236254
+      Heart-Sheet_78: -4900896559532196096
+      Heart-Sheet_24: -692416031625176938
+      Heart-Sheet_64: -253356699381556108
+      Heart-Sheet_33: 4818209290781561300
+      Heart-Sheet_41: 4600776425163383416
+      Heart-Sheet_3: 6926100132977683885
+      Heart-Sheet_19: 6763347380242447440
+      Heart-Sheet_8: -3616413822703799220
+      Heart-Sheet_16: 8052397711296020496
+      Heart-Sheet_0: 7107508412977418053
+      Heart-Sheet_79: 6589705581092176008
+      Heart-Sheet_5: 5726951638948490461
+      Heart-Sheet_7: 3853646564097457985
+      Heart-Sheet_15: 601188072498423211
+      Heart-Sheet_4: 711063480509859802
+      Heart-Sheet_20: 8563080782118301429
+      Heart-Sheet_22: 4533654517046404574
+      Heart-Sheet_31: -6313357999401614135
+      Heart-Sheet_70: -6227653079693654685
+      Heart-Sheet_50: -5967017145903201563
+      Heart-Sheet_18: 8042972684367010728
+      Heart-Sheet_55: 9035546720015078380
+      Heart-Sheet_66: 7051255322030608488
+      Heart-Sheet_68: 7068675962403519236
+      Heart-Sheet_59: -4418395075292700883
+      Heart-Sheet_65: -7485693089728815173
+      Heart-Sheet_69: -774133727148159780
+      Heart-Sheet_63: -7147170597284243294
+      Heart-Sheet_76: -7764448570654353148
+      Heart-Sheet_81: 4037631871526997866
+      Heart-Sheet_44: -1219294492988011773
+      Heart-Sheet_45: -5532915041924352028
+      Heart-Sheet_2: -6632522883082577772
+      Heart-Sheet_38: -7986208222699626615
+      Heart-Sheet_54: -4101640218826542071
+      Heart-Sheet_28: 838347695357985422
+      Heart-Sheet_39: -449196996928285454
+      Heart-Sheet_75: 8551992571229382053
+      Heart-Sheet_6: -1070772558361310286
+      Heart-Sheet_73: 6763709613884873862
+      Heart-Sheet_34: -6280965983305845391
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

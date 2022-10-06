@@ -101,6 +101,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -109,9 +111,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -132,9 +134,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -756,6 +761,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Ghost3-Sheet_6: 2971230655082772746
+      Ghost3-Sheet_18: 744262068174384030
+      Ghost3-Sheet_21: 7113882816407963315
+      Ghost3-Sheet_20: 2639835796091154145
+      Ghost3-Sheet_24: -3223487409608715315
+      Ghost3-Sheet_16: 1569060092344824719
+      Ghost3-Sheet_17: -1520175136569810105
+      Ghost3-Sheet_2: -5703662570969343950
+      Ghost3-Sheet_25: -2059598272467276016
+      Ghost3-Sheet_1: -7966238998775482283
+      Ghost3-Sheet_9: -3157041610973779385
+      Ghost3-Sheet_13: 5987726681305354941
+      Ghost3-Sheet_5: -7105214541482137071
+      Ghost3-Sheet_3: -1548861917901114117
+      Ghost3-Sheet_11: 8043748435105421881
+      Ghost3-Sheet_15: 4923811031359209558
+      Ghost3-Sheet_12: -3042498389350196531
+      Ghost3-Sheet_7: -3834935828696026650
+      Ghost3-Sheet_10: -4647858097302139967
+      Ghost3-Sheet_4: -1151115952130419754
+      Ghost3-Sheet_23: -1798750287272829133
+      Ghost3-Sheet_19: -3020275552269753615
+      Ghost3-Sheet_8: 338994748869591754
+      Ghost3-Sheet_14: -109728653538546156
+      Ghost3-Sheet_22: -2157092876520177355
+      Ghost3-Sheet_0: 4744572497295996832
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
